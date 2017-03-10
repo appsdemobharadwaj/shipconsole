@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="INA406SH8B" name="com.aasc.erp.tests.TestLogic" skipped="0" tests="1" time="0.076" timestamp="2016-11-29T07:08:12">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\ant" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="src.home" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud/src" />
+    <property name="user.name" value="bharadwaj.saripalli" />
+    <property name="web.home" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud/WebContent" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin" />
+    <property name="ant.project.default-target" value="help" />
+    <property name="work.home" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud/work" />
+    <property name="ant.project.name" value="My Project" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="lib.home" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud/WebContent/WEB-INF/lib/junit-4.5.jar" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed" />
+    <property name="ant.file.My Project" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\build.xml" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="ant.file.type.My Project" value="file" />
+    <property name="build.home" value="/home/orafmw/logs/JunitReports/dist" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\ant\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="lib_sele.home" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud/WebContent/WEB-INF/lib/selenium-server-standalone-2.53.0.jar" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\bharadwaj.saripalli" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\Oracle\BIToolsHome_1\jdk\jre\bin\classic;D:\Oracle\BIToolsHome_1\jdk\jre\bin;D:\Oracle\BIToolsHome_1\bin;D:\Oracle\BIToolsHome_1\jlib;D:\Oracle\BIToolsHome_1\jre\1.4.2\bin\client;D:\Oracle\BIToolsHome_1\jre\1.4.2\bin;D:\Oracle\DevSuiteHome_1\jdk\jre\bin\classic;D:\Oracle\DevSuiteHome_1\jdk\jre\bin;D:\Oracle\DevSuiteHome_1\jdk\jre\bin\client;D:\Oracle\DevSuiteHome_1\jlib;D:\Oracle\DevSuiteHome_1\bin;D:\Oracle\DevSuiteHome_1\jre\1.4.2\bin\client;D:\Oracle\DevSuiteHome_1\jre\1.4.2\bin;D:\Oracle\ODBC\bin;D:\Oracle\Work Flow\bin;C:\Program Files (x86)\Oracle\jre\1.1.8\bin;D:\Oracle\Reports\bin;D:\Oracle\Forms\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Oracle\Forms\jdk\bin;C:\Program Files (x86)\cvsnt;C:\Program Files\CloudFoundry;C:\Program Files\Git\cmd;C:\Python27\;C:\opscode\chefdk\bin\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\IBM\IBM Bluemix Live Sync CLI;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\ant\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.aasc.erp.tests.TestLogic skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\TEST-com.aasc.erp.tests.TestLogic.xml crashfile=D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\junitvmwatcher3523658486700220072.properties propsfile=D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\junit1031810221023093488.properties" />
+    <property name="java.class.path" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\WebContent\WEB-INF\lib\junit-4.5.jar;D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud\work\WEB-INF\classes;C:\ant\lib\ant-launcher.jar;C:\ant\lib\ant.jar;C:\ant\lib\ant-junit.jar;C:\ant\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="app.name" value="SpConsole" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\BHARAD~1.SAR\AppData\Local\Temp\" />
+    <property name="dist.home" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud/gen-war" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="D:\POC&apos;s\shipconsole\bit bucket\shipconsolecloud" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\ant\lib\ant.jar" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="runjunit" />
+  </properties>
+  <testcase classname="com.aasc.erp.tests.TestLogic" name="testFindMax" time="0.004" />
+  <system-out><![CDATA[test case find max
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

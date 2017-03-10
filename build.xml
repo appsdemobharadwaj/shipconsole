@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project name="My Project" default="help" basedir="." xmlns:flyway="antlib:org.flywaydb.ant">
+	<!-- Define the properties used by the build -->
+	<property file="build.properties"/>
+	<property name="app.name" value="SpConsole"/>
+	<property name="work.home"    value="${basedir}/work"/>
+	<property name="dist.home"     value="${basedir}/gen-war"/>
+	<property name="src.home"      value="${basedir}/src"/>
+	<property name="web.home"      value="${basedir}/WebContent"/>
+	<property name="lib.home"      value="${web.home}/WEB-INF/lib/junit-4.5.jar"/>
+	<property name="lib_sele.home" value="${web.home}/WEB-INF/lib/selenium-server-standalone-2.53.0.jar"/>
+	<property name="build.home"      value="/home/orafmw/logs/JunitReports/dist"/>
+		  
+
+	<target name="help">
+		<echo>  You can use the following targets: </echo>
+		<echo>  help    : (default) Prints this message </echo>
+		<echo>  all     : Cleans, compiles, and packages application</echo>
+		<echo>  clean   : Deletes work directories</echo>
+		<echo>  compile : Compiles servlets into class files</echo>
+		<echo>  dist    : Packages artifacts into a deployable WAR</echo>
+		<echo>  For example, to clean, compile, and package all at once, run:</echo>
+		<echo>  prompt> ant all </echo>
+	</target>
+
+	<!-- Define the CLASSPATH -->
+	<path id="compile.classpath">
+		<fileset dir="WebContent/WEB-INF/lib">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="all" depends="clean,compile"
+          description="Clean work dirs, then compile and create a WAR"/>
+
+	<target name="clean"
+          description="Delete old work and dist directories">
+		<echo message= " ${basedir} ::: ${work.home} :: ${dist.home}" />
+		<delete dir="${work.home}"/>
+		<delete dir="${dist.home}"/>
+	</target>
+
+	<target name="prepare" depends="clean"
+          description="Create working dirs and copy static files to work dir">
+		<mkdir  dir="${dist.home}"/>
+		<mkdir  dir="${work.home}/WEB-INF/classes"/>
+		<!-- Copy static HTML and JSP files to work dir -->
+		<copy todir="${work.home}">
+			<fileset dir="${web.home}"/>
+		</copy>
+	</target>
+	
+	<target name="compile" depends="prepare"
+          description="Compile Java sources and copy to WEB-INF/classes dir">
+		<javac srcdir="${src.home}"
+          destdir="${work.home}/WEB-INF/classes">
+			<classpath refid="compile.classpath"/>
+		</javac>
+		<copy  todir="${work.home}/WEB-INF/classes">
+			<fileset dir="${src.home}" excludes="**/*.java"/>
+		</copy>
+	</target>
+
+	<target name="dist" depends="compile"
+          description="Create WAR file for binary distribution">
+		<jar jarfile="${dist.home}/${app.name}.war"
+         basedir="${work.home}"/>
+	</target>
+	
+	<!-- Run Junit test -->
+	<target name="runjunit" depends="compile,dist">
+		<junit printsummary="yes" fork="yes" haltonfailure="yes">
+		<test name="com.aasc.erp.tests.TestLogic" />
+		<test name="com.aasc.erp.tests.TestCase" />
+		<classpath>
+			<pathelement location="${lib.home}"/>
+			<pathelement location="${work.home}/WEB-INF/classes"/>
+			<pathelement location="staging"/>
+		</classpath>
+		<formatter type="xml"/>
+		</junit>
+	</target>
+	<!-- Run Selenium test -->
+	<target name="runseleniumTest" depends="compile">
+		<java classname="com.aasc.erp.tests.SeleniumTest">
+		   <classpath>
+			   <pathelement location="${lib_sele.home}"/>
+			   <pathelement location="${work.home}/WEB-INF/classes"/>
+			</classpath>
+		</java>
+	</target>		
+	
+	<target name="init-flyway">
+			<taskdef uri="antlib:org.flywaydb.ant" resource="org/flywaydb/ant/antlib.xml">
+					<classpath>
+						<pathelement location="${web.home}/WEB-INF/lib/flyway-core-4.1.1.jar"/>
+						<pathelement location="${web.home}/WEB-INF/lib/flyway-ant-4.1.1.jar"/>
+					</classpath>
+				</taskdef>
+       <path id="flyway.classpath">
+			 <fileset dir="${web.home}/WEB-INF/lib" includes="ojdbc6.jar"/>
+        </path>
+        <property name="flyway.locations" value="filesystem:${basedir}/WebContent/migrations"/>
+		<property name="flyway.driver" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="flyway.url" value="jdbc:oracle:thin:@flyway-test.cwwpfwiuxh9d.us-west-2.rds.amazonaws.com:1521:ORCL"/>
+		<property name="flyway.user" value="flyway"/>
+		<property name="flyway.password" value="password"/>
+				
+    </target>
+	
+	<target name="fmigrate" depends="init-flyway" description="Runs flyway:migrate">
+        <flyway:migrate/>
+    </target>
+
+    <target name="fclean" depends="init-flyway" description="Runs flyway:clean">
+        <flyway:clean/>
+    </target>
+	
+
+</project>

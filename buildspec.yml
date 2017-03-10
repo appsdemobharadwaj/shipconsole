@@ -1,0 +1,12 @@
+--- 
+artifacts: 
+  files: 
+    - gen-war/SpConsole.war
+    - .ebextensions/**/*
+phases: 
+  build: 
+    commands: 
+      - "echo Build started on `date`"
+      - "ant fmigrate"
+      - "ant dist"
+version: 0.1

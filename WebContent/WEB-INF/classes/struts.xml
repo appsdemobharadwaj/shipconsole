@@ -1,0 +1,317 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+    
+        <action name="login" class="com.aasc.erp.action.AascUserControlAction">
+            <result name="success" type="redirectAction">indexPage</result>
+            <result name="error">/login.jsp</result>
+            <result name="login">/login.jsp</result>
+        </action>
+        
+        <action name="indexPage">
+            <result>/aascShipIndexPage.jsp</result>
+        </action>
+        
+        <action name="AascCreateCustomerAction"
+                class="com.aasc.erp.action.AascCreateCustomerAction">
+            <result name="Create">/aascCreateCustomer.jsp</result>
+            <result name="success">/aascCustomerDetails.jsp</result>
+            <result name="Cancel">/aascCustomerDetails.jsp</result>
+            <result name="Edit">/aascUpdateCustomer.jsp</result>
+            <result name="View">/aascUpdateCustomer.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="AascUpdateCustomerAction" class="com.aasc.erp.action.AascCreateCustomerAction">
+          <result name="success">/aascCustomerDetails.jsp</result>
+          <result name="Cancel">/aascCustomerDetails.jsp</result>
+          <result name="Edit">/aascUpdateCustomer.jsp</result>
+          <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="AascUpdateSubscriptionDetailsAction" class="com.aasc.erp.action.AascCreateCustomerAction">
+          <result name="success">/aascMakePayment.jsp</result>
+          <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+
+        <action name="AascCreateUserAction"
+                class="com.aasc.erp.action.AascCreateUserAction">
+            <result name="Create">/aascCreateUser.jsp</result>
+            <result name="success">/aascUserDetails.jsp</result>
+            <result name="Cancel">/aascUserDetails.jsp</result>
+            <result name="Edit">/aascUpdateUser.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        
+        <action name="AascUpdateUserDetailsAction" class="com.aasc.erp.action.AascCreateUserAction">      
+          <!--result name="success">/aascUserDetails.jsp</result>
+          <result name="Cancel">/aascUserDetails.jsp</result>
+          <result name="Edit">/aascUpdateUser.jsp</result -->      
+          <result name="EditProfile">/aascEditUserProfile.jsp</result> 
+          <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+<!--    Suman G Uncommented below code for Change Password & Forgot Password functionality -->
+        <action name="AascChangePassword" class="com.aasc.erp.action.AascChangePasswordAction">
+            <result name="Success">/aascChangePassword.jsp</result>
+            <result name="error">/aascChangePassword.jsp</result>
+            <result name="success_forgotpwd">/aascForgotPassword.jsp</result>
+            <result name="sessionError" >/aascShipError.jsp</result>
+        </action>
+
+        <action name="ShipToLocationDetailsAction"
+                class="com.aasc.erp.action.AascShipToLocationsAction">
+            <result name="Create">/aascShipToLocationCreate.jsp</result>
+            <result name="Upload">/aascUploadShipToLocations.jsp</result>
+            <result name="Cancel">/aascShipments.jsp</result>
+            <result name="Edit">/aascUpdateShipToLocation.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="AascCustAccontNums"
+                class="com.aasc.erp.action.AascCustAccountNumsAction">
+            <result name="save">/aascCustomerAccountNumbers.jsp</result>
+            <result name="Cancel">/aascUpdateShipToLocation.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+
+        <action name="IndexRequestAction"
+                class="com.aasc.erp.action.IndexRequestAction">
+            <result name="CreateUser">/aascUserDetails.jsp</result>
+            <result name="CreateCustomer">/aascCustomerDetails.jsp</result>
+            <result name="LocationSetup">/aascLocationSetupDetails.jsp</result>
+            <result name="ProfileOptions">/aascProfileOptions.jsp</result>
+            <result name="Tracking">/aascTrackingPageMain.jsp</result>
+            <!-- Gururaj modified jsp mapping for bug #1868 -->
+            <result name="Tracking1">/aascTrackingPageMain.jsp</result>
+            <result name="Shipment1">/aascShipmentAudit.jsp</result>
+            <result name="Shipment">/aascShipment.jsp</result>
+            <result name="CustomerLocationSetup">/aascShipToLocationDetails.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="login">/login.jsp</result>
+            <result name="CarrierConfiguration">/aascCarrierConfigurationSettings.jsp</result>
+            <result name="PackageDimensions">/aascMainPackageDimension.jsp</result>
+            <result name="Reports">/aascReports.jsp</result>
+            <result name="UploadOrders">/aascUploadOrders.jsp</result>
+            <result name="MakePayment">/aascMakePayment.jsp</result>
+        </action>
+        <action name="AascCreateShipToLocationsAction"
+                class="com.aasc.erp.action.AascShipToLocationsAction">
+            <result name="success">/aascShipToLocationCreate.jsp</result>
+            <result name="Cancel">/aascShipToLocationDetails.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="AascUpdateShipToLocationAction"
+                class="com.aasc.erp.action.AascShipToLocationsAction">
+            <result name="success">/aascShipToLocationDetails.jsp</result>
+            <result name="Cancel">/aascShipToLocationDetails.jsp</result>
+            <result name="Edit">/aascUpdateShipToLocation.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="LocationSetupAction"
+                class="com.aasc.erp.action.AascSetupLocationAction">
+            <result name="success">/aascLocationSetupDetails.jsp</result>
+            <result name="Create">/aascCreateLocationDetails.jsp</result>
+            <result name="Cancel">/aascLocationSetupDetails.jsp</result>
+            <result name="Edit">/aascUpdateLocationDetails.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="uploadShipTo"
+                class="com.aasc.erp.action.AascUploadShipToLocation"><!--Sunanda modified the below code for bug fix #2988-->
+            <interceptor-ref name="fileUpload">
+            </interceptor-ref>
+            <interceptor-ref name="basicStack"/>
+            <result name="success">/aascUploadShipToLocations.jsp</result>
+            <result name="error">/aascUploadShipToLocations.jsp</result>
+            <result name="input">/aascUploadShipToLocations.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+       
+       <action name="uploadOrders"
+                class="com.aasc.erp.action.AascUploadOrdersAction">
+            <interceptor-ref name="fileUpload">
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success">/aascUploadOrders.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="input">/aascUploadOrders.jsp</result>
+        </action>
+        <action name="ProfileOptionsAction"
+                class="com.aasc.erp.action.AascProfileOptionsAction">
+            <result name="success">/aascProfileOptions.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+        </action>
+        <action name="AascCarrierConfiguration"
+                class="com.aasc.erp.action.AascCarrierConfigurationAction">
+            <result name="success">/aascCarrierConfigurationSettings.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="ShipMethod">/aascShipMethodMapping.jsp</result>
+        </action>
+        <action name="ShipMethodAction"
+                class="com.aasc.erp.action.ShipMethodAction">
+            <result name="success">/aascShipMethodMapping.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="carrier">/aascCarrierConfigurationSettings.jsp</result>
+        </action>
+        <action name="AascAccountNumbersAction"
+                class="com.aasc.erp.action.AascAccountNumbersAction">
+            <result name="success">/aascAccountNumbers.jsp</result>
+            <result name="Create">/aascAccountNumberDetails.jsp</result>
+            <result name="fail">/aascAccountNumbers.jsp</result>
+            <result name="Edit">/aascAccountNumberDetails.jsp</result>
+            <result name="Register">/aascUpsLicenseInfo.jsp </result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="TrackingInformationAction"
+                class="com.aasc.erp.action.TrackingInformationAction">
+            <result name="success">/aascTrackingPageMain.jsp</result>
+            <result name="tracking">/aascTrackPage.jsp</result>
+            <result name="fedexTracking">/aascFedexTrackPage.jsp</result>
+            <result name="error">/aascTrackingError.jsp</result>
+            <result name="sessionerror">/aascShipError.jsp</result>
+            <result name="dhlTracking">/aascDHLTrackPage.jsp</result> <!--For DHL Tracking-->
+            <!--result name="ltlTracking">/aascLTLTrackingError.jsp</result-->
+        </action>
+        <action name="AascAccountNumberDetailsAction"
+                class="com.aasc.erp.action.AascAccountNumbersAction">
+            <result name="success">/aascAccountNumbers.jsp</result>
+            <result name="Edit">/aascAccountNumberDetails.jsp</result>
+            <result name="fail">/aascAccountNumberDetails.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="ReportsAction" class="com.aasc.erp.action.ReportsAction">
+            <result name="CarrierShipActivity">/aascCarrierShipActivity.jsp</result>
+            <result name="CarrierSLAReport">/aascCarrierSLAReport.jsp</result>
+            <!--result name="success">/aascReports.jsp</result-->
+            <result name="error">/aascShipError.jsp</result>
+        </action>
+        <!--<action name="ReportsInfoAction"
+                class="com.aasc.erp.action.ReportsInfoAction">
+            <result name="CarrierShipActivity">/aascCarrierShipActivity.jsp</result>
+            <result name="CarrierSLAReport">/aascCarrierSLAReport.jsp</result>
+        </action>  -->
+        <action name="ReportDriverAction"
+                class="com.aasc.erp.action.ReportDriverAction">
+            <result name="CarrierShipActivity">/aascCarrierShipActivity.jsp</result>
+            <result name="CarrierSLAReport">/aascCarrierSLAReport.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+        </action>
+        <action name="ReportDriverAction1"
+                class="com.aasc.erp.action.ReportDriverAction">
+            <result name="CarrierShipActivity">/aascReportPopup.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="CarrierSLAReport">/aascReportPopup.jsp</result>
+        </action>
+        
+        <action name="ShipmentOrderShipSaveAction" class="com.aasc.erp.action.ShipmentOrderShipSaveAction">
+          <result name="success">/aascShipment.jsp</result>
+          <result name="newOrder">/aascShipment.jsp</result>
+          <result name="error">/aascShipError.jsp</result>
+        </action>
+        
+        <action name="ShipmentOrderInfoAction" class="com.aasc.erp.action.ShipmentOrderInfoAction">
+          <result name="success1">/aascShipment.jsp</result>
+          <result name="error">/aascShipError.jsp</result>
+        </action>
+
+<action name="AascPackageDimensions"
+                class="com.aasc.erp.action.PackageDimensionsAction">
+            <result name="success">/aascMainPackageDimension.jsp</result>
+            <result name="fail">/aascMainPackageDimension.jsp</result>
+            <result name="Create">/aascPackageDimensionDetails.jsp</result>
+            <result name="Edit">/aascPackageDimensionDetails.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="AascPackageDimensionsDetails"
+                class="com.aasc.erp.action.PackageDimensionsAction">
+            <result name="success">/aascMainPackageDimension.jsp</result>
+            <result name="fail">/aascPackageDimensionDetails.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        
+        <action name="AascShipmentAuditAction" class="com.aasc.erp.action.AascShipmentAuditAction">
+            <result name="success">/aascShipment.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+        </action>
+
+        <action name="OrderSearchAction" class="com.aasc.erp.action.AascOrderSearchAction">
+        <result name="success">/aascShipOrderSearch.jsp</result>
+        <result name="error">/aascShipError.jsp</result>
+        </action>
+        <action name="AascIntlShipAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascInternationalShipments.jsp</result>
+            <result name="error">/aascInternationalShipments.jsp</result>
+            <result name="errorSession">/aascShipPopUpsError.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="aascShipExecHazmatPackageAction" class="com.aasc.erp.action.AascHazmatPackageAction" >
+        <result name="success">/aascShipExecPkgingOptions.jsp</result>
+        <result name="error">/aascShipExecPkgingOptions.jsp</result>
+         <result name="errorSession">/aascShipPopUpsError.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <action name="AascUpsIntlShipAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascUPSIntlShipment.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="errorSession">/aascShipPopUpsError.jsp</result>
+            <result name="viewPrint">/aascIntlDocViewPrint.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        
+         <action name="AascShipExecIntlShipAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascShipExecIntlShipment.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="errorSession">/aascShipPopUpsError.jsp</result>
+            <result name="viewPrint">/aascIntlDocViewPrint.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        
+        <action name="AascUpsIntlAddressAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascUpsIntlAddressDetails.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        
+         <action name="AascShipExecIntlAddressAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascShipExecIntlAddessDetails.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <!--Shiva added below code for DHL -->
+        <action name="AascDHLIntlShipAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascDHLInternationalShipments.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        <!--Shiva code end -->
+                <!--Mahesh Reddy -->
+         <action name="AascStampsIntlShipAction"  class="com.aasc.erp.action.AascIntlShipAction">
+            <result name="success">/aascStampsIntlShipments.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="errorSession">/aascShipPopUpsError.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+        
+        <action name="FreightShopAction"  class="com.aasc.erp.action.AascFreightShopAction">
+            <result name="success">/aascFreightShopPopUp.jsp</result>
+            <result name="error">/aascFreightShopPopUp.jsp</result>
+            <result name="sessionError">/aascShipError.jsp</result>
+        </action>
+
+        <action name="AddressValidationAction"  class="com.aasc.erp.action.AascAddressValidationAction">
+            <result name="success">/aascAddressValidation.jsp</result>
+            <result name="errorSession">/aascShipPopUpsError.jsp</result>
+        </action>
+        
+        <action name="PrinterSetupAction"  class="com.aasc.erp.action.AascPrinterSetupAction">
+            <result name="success">/aascPrinterSetup.jsp</result>
+            <result name="error">/aascShipError.jsp</result>
+            <result name="errorSession">/aascShipPopUpsError.jsp</result>
+        </action>
+        
+    </package>
+    <constant name="struts.ui.theme" value="simple"/>
+    <constant name="struts.custom.i18n.resources" value="ApplicationResources"/>
+    <constant name="struts.devMode" value="false"/>
+    <constant name="struts.multipart.maxSize" value="10000000" /> <!--Srisha added to increase upload file size for bug #2947-->
+</struts>
+
+ 

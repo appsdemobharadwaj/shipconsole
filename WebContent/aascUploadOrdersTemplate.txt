@@ -1,0 +1,7 @@
+order_number	customer_name	contact_name	street_line_1	street_line_2	city	state	postal_code	country	contact_number	ShipFrom_location_name	company_name	shipmethod_meaning	paymethod	carrier_accountNumber	refernce1	refernce2
+1000125	Vijay	VJ	Street no.4	Habsiguda	Hyderabd	AP	50001	IN	9700800951	Apps1	Apps	UPS-Air-Next Day Air Early AM	Prepaid	3749X4	112	112
+1000124	Jagadish Jain	Jags	200  S  FRONTAGE  RD	45 E	PROVO	UT	84606	US	9700800951	Apps5	Apps	FDXG-Air-FedEx Ground	Prepaid	123456	111	111
+1000162	Jagadish Jain	Jags		Habsiguda	Hyderabd	AP	50002	IN	9700800952	Apps	Apps	UPS	Prepaid	123457	112	112
+1234567	Apps Associates	Jagadish	26 MEADOW LN	45 E	PROVO	UT	84606	US	9700800952	Apps5	PHT	UPS-Truck-Ground	Prepaid	3749X4	245	12222
+JZ11110	Jagadish Jain	MEXICO	PRESIDENTE MASARIK NO 111PH1	COL CHAPUL TEPEC LOS MORALES	MIGUEL HIDALGO	 	11570	MX	9700800953	Apps5	APPS HYD	UPS-Air-Worldwide Express	Prepaid	3749X4	asf	asdf
+JZ11111	Apps Associates	Jagadish	26 MEADOW LN	45 E	PROVO	UT	84606	US	9700800952	Apps5	PHT	UPS-Truck-Ground	Prepaid	3749X4	245	12222

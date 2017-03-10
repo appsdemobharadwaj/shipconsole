@@ -1,0 +1,628 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="SwsimV37.java"/>
+      <url path="runtime/SwsimV37_Impl.java"/>
+      <url path="SwsimV37Soap.java"/>
+      <url path="ImageType.java"/>
+      <url path="ServiceType.java"/>
+      <url path="PackageTypeV6.java"/>
+      <url path="AddOnTypeV6.java"/>
+      <url path="ContentTypeV2.java"/>
+      <url path="EltronPrinterDPIType.java"/>
+      <url path="NonDeliveryOption.java"/>
+      <url path="PaperSizeV1.java"/>
+      <url path="CreateIndiciumModeV1.java"/>
+      <url path="NetstampsStatus.java"/>
+      <url path="PurchaseStatus.java"/>
+      <url path="UrlType.java"/>
+      <url path="StoreShippingMethodType.java"/>
+      <url path="ResidentialDeliveryIndicatorType.java"/>
+      <url path="NetStampsImageType.java"/>
+      <url path="CarrierPickupLocationV1.java"/>
+      <url path="CodewordType.java"/>
+      <url path="AccountType.java"/>
+      <url path="CreditCardType.java"/>
+      <url path="AchAccountType.java"/>
+      <url path="RegistrationStatus.java"/>
+      <url path="ResubmissionStatus.java"/>
+      <url path="TrackingEventType.java"/>
+      <url path="CreateScanForm.java"/>
+      <url path="Credentials.java"/>
+      <url path="ArrayOfGuid.java"/>
+      <url path="Address.java"/>
+      <url path="CreateScanFormResponse.java"/>
+      <url path="CreateIndicium.java"/>
+      <url path="RateV14.java"/>
+      <url path="ArrayOfArrayOfAddOnTypeV6.java"/>
+      <url path="ArrayOfAddOnTypeV6.java"/>
+      <url path="ArrayOfAddOnV6.java"/>
+      <url path="AddOnV6.java"/>
+      <url path="CustomsV2.java"/>
+      <url path="ArrayOfCustomsLine.java"/>
+      <url path="CustomsLine.java"/>
+      <url path="ShipmentNotification.java"/>
+      <url path="LabelRecipientInfo.java"/>
+      <url path="CreateIndiciumResponse.java"/>
+      <url path="PostageBalance.java"/>
+      <url path="ArrayOfBase64Binary.java"/>
+      <url path="CreateUnfundedIndicium.java"/>
+      <url path="CreateUnfundedIndiciumResponse.java"/>
+      <url path="CreateEnvelopeIndicium.java"/>
+      <url path="CreateEnvelopeIndiciumResponse.java"/>
+      <url path="CreateNetStampsIndicia.java"/>
+      <url path="ArrayOfNetStampV10.java"/>
+      <url path="NetStampV10.java"/>
+      <url path="CreateNetStampsIndiciaResponse.java"/>
+      <url path="ArrayOfIndiciumData.java"/>
+      <url path="IndiciumData.java"/>
+      <url path="CreateMailingLabelIndicia.java"/>
+      <url path="ArrayOfIndiciumInfoV6.java"/>
+      <url path="IndiciumInfoV6.java"/>
+      <url path="CreateMailingLabelIndiciaResponse.java"/>
+      <url path="ArrayOfString.java"/>
+      <url path="GetRates.java"/>
+      <url path="GetRatesResponse.java"/>
+      <url path="ArrayOfRateV14.java"/>
+      <url path="ChangePlan.java"/>
+      <url path="ChangePlanResponse.java"/>
+      <url path="GetURL.java"/>
+      <url path="GetURLResponse.java"/>
+      <url path="RecoverUsername.java"/>
+      <url path="RecoverUsernameResponse.java"/>
+      <url path="GetSupportedCountries.java"/>
+      <url path="GetSupportedCountriesResponse.java"/>
+      <url path="ArrayOfCountryInfo.java"/>
+      <url path="CountryInfo.java"/>
+      <url path="ChangePassword.java"/>
+      <url path="ChangePasswordResponse.java"/>
+      <url path="PriceOrder.java"/>
+      <url path="ArrayOfSku.java"/>
+      <url path="Sku.java"/>
+      <url path="PriceOrderResponse.java"/>
+      <url path="ArrayOfStoreShippingMethodOption.java"/>
+      <url path="StoreShippingMethodOption.java"/>
+      <url path="PlaceOrder.java"/>
+      <url path="PlaceOrderResponse.java"/>
+      <url path="CleanseAddress.java"/>
+      <url path="CleanseAddressResponse.java"/>
+      <url path="ArrayOfAddress.java"/>
+      <url path="StatusCodes.java"/>
+      <url path="ArrayOfFootnote.java"/>
+      <url path="Footnote.java"/>
+      <url path="ArrayOfDpvFootnote.java"/>
+      <url path="DpvFootnote.java"/>
+      <url path="ArrayOfInt.java"/>
+      <url path="GetNetStampsImages.java"/>
+      <url path="GetNetStampsImagesResponse.java"/>
+      <url path="ArrayOfNetStampsImage.java"/>
+      <url path="NetStampsImage.java"/>
+      <url path="ArrayOfPlan.java"/>
+      <url path="Plan.java"/>
+      <url path="GetChangePlanStatus.java"/>
+      <url path="GetChangePlanStatusResponse.java"/>
+      <url path="PurchasePostage.java"/>
+      <url path="MachineInfo.java"/>
+      <url path="FP.java"/>
+      <url path="PurchasePostageResponse.java"/>
+      <url path="ResubmitPurchase.java"/>
+      <url path="ResubmitPurchaseResponse.java"/>
+      <url path="CarrierPickup.java"/>
+      <url path="CarrierPickupResponse.java"/>
+      <url path="EnumNetStampsLayouts.java"/>
+      <url path="EnumNetStampsLayoutsResponse.java"/>
+      <url path="ArrayOfNetStampsLayout.java"/>
+      <url path="NetStampsLayout.java"/>
+      <url path="EnumCostCodes.java"/>
+      <url path="EnumCostCodesResponse.java"/>
+      <url path="ArrayOfCost_code_info_v1.java"/>
+      <url path="Cost_code_info_v1.java"/>
+      <url path="AuthenticateWithTransferAuthenticator.java"/>
+      <url path="AuthenticateWithTransferAuthenticatorResponse.java"/>
+      <url path="CancelIndicium.java"/>
+      <url path="CancelIndiciumResponse.java"/>
+      <url path="StartPasswordReset.java"/>
+      <url path="StartPasswordResetResponse.java"/>
+      <url path="FinishPasswordReset.java"/>
+      <url path="FinishPasswordResetResponse.java"/>
+      <url path="GetCodewordQuestions.java"/>
+      <url path="GetCodewordQuestionsResponse.java"/>
+      <url path="RegisterAccount.java"/>
+      <url path="CreditCard.java"/>
+      <url path="AchAccount.java"/>
+      <url path="RegisterAccountResponse.java"/>
+      <url path="VoidUnfundedIndicium.java"/>
+      <url path="VoidUnfundedIndiciumResponse.java"/>
+      <url path="FundUnfundedIndicium.java"/>
+      <url path="FundUnfundedIndiciumResponse.java"/>
+      <url path="AuthenticateUser.java"/>
+      <url path="AuthenticateUserResponse.java"/>
+      <url path="GetAccountInfo.java"/>
+      <url path="GetAccountInfoResponse.java"/>
+      <url path="AccountInfo.java"/>
+      <url path="CapabilitiesV7.java"/>
+      <url path="CapabilitiesV6.java"/>
+      <url path="CapabilitiesV5.java"/>
+      <url path="CapabilitiesV4.java"/>
+      <url path="CapabilitiesV3.java"/>
+      <url path="CapabilitiesV2.java"/>
+      <url path="Capabilities.java"/>
+      <url path="GetPurchaseStatus.java"/>
+      <url path="GetPurchaseStatusResponse.java"/>
+      <url path="TrackShipment.java"/>
+      <url path="TrackShipmentResponse.java"/>
+      <url path="ArrayOfTrackingEvent.java"/>
+      <url path="TrackingEvent.java"/>
+      <url path="runtime/ImageType_Encoder.java"/>
+      <url path="runtime/ServiceType_Encoder.java"/>
+      <url path="runtime/PackageTypeV6_Encoder.java"/>
+      <url path="runtime/AddOnTypeV6_Encoder.java"/>
+      <url path="runtime/ContentTypeV2_Encoder.java"/>
+      <url path="runtime/EltronPrinterDPIType_Encoder.java"/>
+      <url path="runtime/NonDeliveryOption_Encoder.java"/>
+      <url path="runtime/PaperSizeV1_Encoder.java"/>
+      <url path="runtime/CreateIndiciumModeV1_Encoder.java"/>
+      <url path="runtime/NetstampsStatus_Encoder.java"/>
+      <url path="runtime/PurchaseStatus_Encoder.java"/>
+      <url path="runtime/UrlType_Encoder.java"/>
+      <url path="runtime/StoreShippingMethodType_Encoder.java"/>
+      <url path="runtime/ResidentialDeliveryIndicatorType_Encoder.java"/>
+      <url path="runtime/NetStampsImageType_Encoder.java"/>
+      <url path="runtime/CarrierPickupLocationV1_Encoder.java"/>
+      <url path="runtime/CodewordType_Encoder.java"/>
+      <url path="runtime/AccountType_Encoder.java"/>
+      <url path="runtime/CreditCardType_Encoder.java"/>
+      <url path="runtime/AchAccountType_Encoder.java"/>
+      <url path="runtime/RegistrationStatus_Encoder.java"/>
+      <url path="runtime/ResubmissionStatus_Encoder.java"/>
+      <url path="runtime/TrackingEventType_Encoder.java"/>
+      <url path="runtime/CapabilitiesV6_InterfaceSOAPSerializer.java"/>
+      <url path="runtime/CapabilitiesV5_InterfaceSOAPSerializer.java"/>
+      <url path="runtime/CapabilitiesV4_InterfaceSOAPSerializer.java"/>
+      <url path="runtime/CapabilitiesV3_InterfaceSOAPSerializer.java"/>
+      <url path="runtime/CapabilitiesV2_InterfaceSOAPSerializer.java"/>
+      <url path="runtime/Capabilities_InterfaceSOAPSerializer.java"/>
+      <url path="runtime/Credentials_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfGuid_LiteralSerializer.java"/>
+      <url path="runtime/Address_LiteralSerializer.java"/>
+      <url path="runtime/CreateScanForm_LiteralSerializer.java"/>
+      <url path="runtime/CreateScanFormResponse_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfAddOnTypeV6_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfArrayOfAddOnTypeV6_LiteralSerializer.java"/>
+      <url path="runtime/AddOnV6_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfAddOnV6_LiteralSerializer.java"/>
+      <url path="runtime/RateV14_LiteralSerializer.java"/>
+      <url path="runtime/CustomsLine_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfCustomsLine_LiteralSerializer.java"/>
+      <url path="runtime/CustomsV2_LiteralSerializer.java"/>
+      <url path="runtime/ShipmentNotification_LiteralSerializer.java"/>
+      <url path="runtime/LabelRecipientInfo_LiteralSerializer.java"/>
+      <url path="runtime/CreateIndicium_LiteralSerializer.java"/>
+      <url path="runtime/PostageBalance_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfBase64Binary_LiteralSerializer.java"/>
+      <url path="runtime/CreateIndiciumResponse_LiteralSerializer.java"/>
+      <url path="runtime/CreateUnfundedIndicium_LiteralSerializer.java"/>
+      <url path="runtime/CreateUnfundedIndiciumResponse_LiteralSerializer.java"/>
+      <url path="runtime/CreateEnvelopeIndicium_LiteralSerializer.java"/>
+      <url path="runtime/CreateEnvelopeIndiciumResponse_LiteralSerializer.java"/>
+      <url path="runtime/NetStampV10_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfNetStampV10_LiteralSerializer.java"/>
+      <url path="runtime/CreateNetStampsIndicia_LiteralSerializer.java"/>
+      <url path="runtime/IndiciumData_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfIndiciumData_LiteralSerializer.java"/>
+      <url path="runtime/CreateNetStampsIndiciaResponse_LiteralSerializer.java"/>
+      <url path="runtime/IndiciumInfoV6_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfIndiciumInfoV6_LiteralSerializer.java"/>
+      <url path="runtime/CreateMailingLabelIndicia_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfString_LiteralSerializer.java"/>
+      <url path="runtime/CreateMailingLabelIndiciaResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetRates_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfRateV14_LiteralSerializer.java"/>
+      <url path="runtime/GetRatesResponse_LiteralSerializer.java"/>
+      <url path="runtime/ChangePlan_LiteralSerializer.java"/>
+      <url path="runtime/ChangePlanResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetURL_LiteralSerializer.java"/>
+      <url path="runtime/GetURLResponse_LiteralSerializer.java"/>
+      <url path="runtime/RecoverUsername_LiteralSerializer.java"/>
+      <url path="runtime/RecoverUsernameResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetSupportedCountries_LiteralSerializer.java"/>
+      <url path="runtime/CountryInfo_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfCountryInfo_LiteralSerializer.java"/>
+      <url path="runtime/GetSupportedCountriesResponse_LiteralSerializer.java"/>
+      <url path="runtime/ChangePassword_LiteralSerializer.java"/>
+      <url path="runtime/ChangePasswordResponse_LiteralSerializer.java"/>
+      <url path="runtime/Sku_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfSku_LiteralSerializer.java"/>
+      <url path="runtime/PriceOrder_LiteralSerializer.java"/>
+      <url path="runtime/StoreShippingMethodOption_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfStoreShippingMethodOption_LiteralSerializer.java"/>
+      <url path="runtime/PriceOrderResponse_LiteralSerializer.java"/>
+      <url path="runtime/PlaceOrder_LiteralSerializer.java"/>
+      <url path="runtime/PlaceOrderResponse_LiteralSerializer.java"/>
+      <url path="runtime/CleanseAddress_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfAddress_LiteralSerializer.java"/>
+      <url path="runtime/Footnote_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfFootnote_LiteralSerializer.java"/>
+      <url path="runtime/DpvFootnote_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfDpvFootnote_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfInt_LiteralSerializer.java"/>
+      <url path="runtime/StatusCodes_LiteralSerializer.java"/>
+      <url path="runtime/CleanseAddressResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetNetStampsImages_LiteralSerializer.java"/>
+      <url path="runtime/Plan_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfPlan_LiteralSerializer.java"/>
+      <url path="runtime/NetStampsImage_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfNetStampsImage_LiteralSerializer.java"/>
+      <url path="runtime/GetNetStampsImagesResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetChangePlanStatus_LiteralSerializer.java"/>
+      <url path="runtime/GetChangePlanStatusResponse_LiteralSerializer.java"/>
+      <url path="runtime/FP_LiteralSerializer.java"/>
+      <url path="runtime/MachineInfo_LiteralSerializer.java"/>
+      <url path="runtime/PurchasePostage_LiteralSerializer.java"/>
+      <url path="runtime/PurchasePostageResponse_LiteralSerializer.java"/>
+      <url path="runtime/ResubmitPurchase_LiteralSerializer.java"/>
+      <url path="runtime/ResubmitPurchaseResponse_LiteralSerializer.java"/>
+      <url path="runtime/CarrierPickup_LiteralSerializer.java"/>
+      <url path="runtime/CarrierPickupResponse_LiteralSerializer.java"/>
+      <url path="runtime/EnumNetStampsLayouts_LiteralSerializer.java"/>
+      <url path="runtime/NetStampsLayout_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfNetStampsLayout_LiteralSerializer.java"/>
+      <url path="runtime/EnumNetStampsLayoutsResponse_LiteralSerializer.java"/>
+      <url path="runtime/EnumCostCodes_LiteralSerializer.java"/>
+      <url path="runtime/Cost_code_info_v1_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfCost_code_info_v1_LiteralSerializer.java"/>
+      <url path="runtime/EnumCostCodesResponse_LiteralSerializer.java"/>
+      <url path="runtime/AuthenticateWithTransferAuthenticator_LiteralSerializer.java"/>
+      <url path="runtime/AuthenticateWithTransferAuthenticatorResponse_LiteralSerializer.java"/>
+      <url path="runtime/CancelIndicium_LiteralSerializer.java"/>
+      <url path="runtime/CancelIndiciumResponse_LiteralSerializer.java"/>
+      <url path="runtime/StartPasswordReset_LiteralSerializer.java"/>
+      <url path="runtime/StartPasswordResetResponse_LiteralSerializer.java"/>
+      <url path="runtime/FinishPasswordReset_LiteralSerializer.java"/>
+      <url path="runtime/FinishPasswordResetResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetCodewordQuestions_LiteralSerializer.java"/>
+      <url path="runtime/GetCodewordQuestionsResponse_LiteralSerializer.java"/>
+      <url path="runtime/CreditCard_LiteralSerializer.java"/>
+      <url path="runtime/AchAccount_LiteralSerializer.java"/>
+      <url path="runtime/RegisterAccount_LiteralSerializer.java"/>
+      <url path="runtime/RegisterAccountResponse_LiteralSerializer.java"/>
+      <url path="runtime/VoidUnfundedIndicium_LiteralSerializer.java"/>
+      <url path="runtime/VoidUnfundedIndiciumResponse_LiteralSerializer.java"/>
+      <url path="runtime/FundUnfundedIndicium_LiteralSerializer.java"/>
+      <url path="runtime/FundUnfundedIndiciumResponse_LiteralSerializer.java"/>
+      <url path="runtime/AuthenticateUser_LiteralSerializer.java"/>
+      <url path="runtime/AuthenticateUserResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetAccountInfo_LiteralSerializer.java"/>
+      <url path="runtime/CapabilitiesV7_LiteralSerializer.java"/>
+      <url path="runtime/CapabilitiesV6_LiteralSerializer.java"/>
+      <url path="runtime/CapabilitiesV5_LiteralSerializer.java"/>
+      <url path="runtime/CapabilitiesV4_LiteralSerializer.java"/>
+      <url path="runtime/CapabilitiesV3_LiteralSerializer.java"/>
+      <url path="runtime/CapabilitiesV2_LiteralSerializer.java"/>
+      <url path="runtime/Capabilities_LiteralSerializer.java"/>
+      <url path="runtime/AccountInfo_LiteralSerializer.java"/>
+      <url path="runtime/GetAccountInfoResponse_LiteralSerializer.java"/>
+      <url path="runtime/GetPurchaseStatus_LiteralSerializer.java"/>
+      <url path="runtime/GetPurchaseStatusResponse_LiteralSerializer.java"/>
+      <url path="runtime/TrackShipment_LiteralSerializer.java"/>
+      <url path="runtime/TrackingEvent_LiteralSerializer.java"/>
+      <url path="runtime/ArrayOfTrackingEvent_LiteralSerializer.java"/>
+      <url path="runtime/TrackShipmentResponse_LiteralSerializer.java"/>
+      <url path="runtime/SwsimV37Soap_Stub.java"/>
+      <url path="runtime/SwsimV37Soap12_Stub.java"/>
+      <url path="runtime/SwsimV37_SerializerRegistry.java"/>
+      <url path="runtime/SwsimV37_SerializerRegistry12.java"/>
+      <url path="SwsimV37SoapClient.java"/>
+      <url path="SwsimV37Soap12Client.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="ATTACHMENT_MIME"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="com.aasc.erp.carrier.stampsws.proxy"/>
+            <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="com.aasc.erp.carrier.stampsws.proxy.types"/>
+         </hash>
+      </hash>
+      <value n="PROXY_MAPPING_URL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="SwsimV37Soap">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="CLASS_NAME" v="com.aasc.erp.carrier.stampsws.proxy.SwsimV37Soap"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="SwsimV37Soap"/>
+            <hash n="OPERATIONS">
+               <hash n="authenticateUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="authenticateWithTransferAuthenticator">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="cancelIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="carrierPickup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="changePassword">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="changePlan">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="cleanseAddress">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createEnvelopeIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createMailingLabelIndicia">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createNetStampsIndicia">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createScanForm">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createUnfundedIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="enumCostCodes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="enumNetStampsLayouts">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="finishPasswordReset">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="fundUnfundedIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAccountInfo">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getChangePlanStatus">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCodewordQuestions">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getNetStampsImages">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPurchaseStatus">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getRates">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSupportedCountries">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getURL">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="placeOrder">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="priceOrder">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="purchasePostage">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="recoverUsername">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="registerAccount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="resubmitPurchase">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="startPasswordReset">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="trackShipment">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="voidUnfundedIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="https" host="swsim.testing.stamps.com" path="/swsim/swsimv37.asmx"/>
+         </hash>
+         <hash n="SwsimV37Soap12">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="CLASS_NAME" v="com.aasc.erp.carrier.stampsws.proxy.SwsimV37Soap"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="SwsimV37Soap12"/>
+            <hash n="OPERATIONS">
+               <hash n="authenticateUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="authenticateWithTransferAuthenticator">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="cancelIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="carrierPickup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="changePassword">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="changePlan">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="cleanseAddress">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createEnvelopeIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createMailingLabelIndicia">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createNetStampsIndicia">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createScanForm">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createUnfundedIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="enumCostCodes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="enumNetStampsLayouts">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="finishPasswordReset">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="fundUnfundedIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAccountInfo">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getChangePlanStatus">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCodewordQuestions">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getNetStampsImages">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPurchaseStatus">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getRates">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSupportedCountries">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getURL">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="placeOrder">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="priceOrder">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="purchasePostage">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="recoverUsername">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="registerAccount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="resubmitPurchase">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="startPasswordReset">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="trackShipment">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="voidUnfundedIndicium">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="https" host="swsim.testing.stamps.com" path="/swsim/swsimv37.asmx"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="SwsimV37"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://stamps.com/xml/namespace/2014/07/swsim/swsimv37"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../../../Ship.jpr"/>
+      <url n="PROXY_WSDL_URL" protocol="https" host="swsim.testing.stamps.com" path="/swsim/swsimv37.asmx" query="wsdl"/>
+   </hash>
+</jdevws:WebServiceProxy>

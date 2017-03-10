@@ -1,0 +1,507 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts101 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #333333;
+}
+span.rvts102 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #333333;
+}
+span.rvts103 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts104 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts105 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts106 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts107 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts108 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'OpenSymbol';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts109 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Book Antiqua', 'Palatino', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts110 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #00ff00;
+}
+span.rvts111 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts112 /* Font Style */
+{
+ font-family: 'Book Antiqua', 'Palatino', serif;
+}
+span.rvts113 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'OpenSymbol';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts114 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts115 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts116 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Book Antiqua', 'Palatino', serif;
+ color: #000000;
+}
+span.rvts117 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Book Antiqua', 'Palatino', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts118 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts119 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts120 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial', 'Helvetica', sans-serif;
+ color: #000000;
+}
+span.rvts121 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts122 /* Font Style */
+{
+ font-size: 11pt;
+ font-family: 'Book Antiqua', 'Palatino', serif;
+}
+span.rvts123 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
+}
+span.rvts124 /* Font Style */
+{
+ color: #000000;
+}
+span.rvts125 /* Font Style */
+{
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts126 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts127 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Book Antiqua', 'Palatino', serif;
+ font-style: italic;
+ font-weight: bold;
+}
+span.rvts128 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Book Antiqua', 'Palatino', serif;
+}
+span.rvts129 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts130 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts131 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
+ color: #000000;
+}
+span.rvts132 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts133 /* Normal text */
+{
+ font-size: 11pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
+ font-weight: bold;
+}
+span.rvts134 /* Normal text */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts135 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: italic;
+ font-weight: bold;
+}
+span.rvts136 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts137 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts138 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts139 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts140 /* Normal text */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts141 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'OpenSymbol';
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* left align */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps101 /* Paragraph Style */
+{
+ text-align: justify;
+ margin: 8px 0px 8px 0px;
+}
+.rvps102 /* Paragraph Style */
+{
+ text-align: center;
+}
+.rvps103 /* Paragraph Style */
+{
+ text-align: justify;
+}
+.rvps104 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 107px;
+}
+.rvps105 /* Paragraph Style */
+{
+ margin: 8px 0px 8px 0px;
+}
+.rvps106 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 8px 0px 8px 77px;
+}
+.rvps107 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 8px 0px 8px 48px;
+}
+.rvps108 /* Paragraph Style */
+{
+ text-align: justify;
+ line-height: 1.15;
+ margin: 7px 0px 8px 0px;
+}
+.rvps109 /* Paragraph Style */
+{
+ text-align: justify;
+ line-height: 1.15;
+}
+.rvps110 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: -24px;
+ line-height: 1.15;
+ margin: 0px 0px 0px 48px;
+}
+.rvps111 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 0px 0px 9px 72px;
+}
+.rvps112 /* Paragraph Style */
+{
+ text-align: justify;
+ margin: 0px 0px 9px 0px;
+}
+.rvps113 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps114 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 72px;
+}
+.rvps115 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 8px 48px;
+}
+.rvps116 /* Paragraph Style */
+{
+ margin: 0px 0px 8px 0px;
+}
+.rvps117 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 0px 0px 8px 48px;
+}
+.rvps118 /* Paragraph Style */
+{
+ text-align: justify;
+}
+.rvps119 /* Paragraph Style */
+{
+ margin: 0px 0px 0px 23px;
+}
+.rvps120 /* Paragraph Style */
+{
+ margin: 8px 0px 8px 0px;
+}
+.rvps121 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 192px;
+}
+.rvps122 /* left align */
+{
+ margin: 0px 0px 0px 240px;
+}
+.rvps123 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 144px;
+}
+.rvps124 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 288px;
+}
+.rvps125 /* left align */
+{
+ margin: 0px 0px 0px 288px;
+}
+.rvps126 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 11px;
+}
+.rvps127 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 8px 0px 8px 29px;
+}
+.rvps128 /* left align */
+{
+ margin: 0px 0px 0px 144px;
+}
+.rvps129 /* left align */
+{
+ margin: 0px 0px 0px 96px;
+}
+.rvps130 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 8px 0px 8px 432px;
+}
+.rvps131 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 8px 0px 8px 240px;
+}
+.rvps132 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 8px 0px 8px 336px;
+}
+.rvps133 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 8px 0px 8px 384px;
+}
+.rvps134 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 384px;
+}
+.rvps135 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 8px 0px 8px 288px;
+}
+.rvps136 /* Paragraph Style */
+{
+ text-align: center;
+ margin: 8px 0px 8px 0px;
+}
+.rvps137 /* Paragraph Style */
+{
+ text-align: justify;
+ margin: 0px 0px 0px 432px;
+}
+.rvps138 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 240px;
+}
+.rvps139 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 432px;
+}
+.rvps140 /* Paragraph Style */
+{
+ margin: 3px 0px 3px 0px;
+}
+.rvps141 /* Paragraph Style */
+{
+ text-indent: 48px;
+}
+.rvps142 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ line-height: 1.15;
+}
+.rvps143 /* Paragraph Style */
+{
+ text-align: justify;
+ margin: 0px 0px 8px 0px;
+}
+.rvps144 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 0px 0px 9px 48px;
+}
+.rvps145 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 8px 0px 8px 0px;
+}
+.rvps146 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 96px;
+}

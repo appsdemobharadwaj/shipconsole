@@ -1,0 +1,228 @@
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,/*input*/,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+
+table {
+        border-collapse:separate; 
+	/*border-spacing:0px;*/
+}
+/*
+fieldset,img { 
+	border:0;
+}*/
+
+address,caption,cite,code,dfn,em,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+caption,th {
+	text-align:left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+	position:relative;
+}
+
+q:before,q:after {
+	content:'';
+}
+
+abbr,acronym { 
+	border:0;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/*background-color: #E6E6E6;*/
+}
+body,td,th {
+	font-family: Tahoma;
+	font-size: 11px;
+}
+a:link {
+	color: white/*#FFFFFF*/;
+	text-decoration: none;
+font-family:ARIAL; 
+font-size:14px;
+font-weight:bold;
+}
+a:visited {
+	text-decoration: none;
+	color: White;
+font-family:ARIAL; 
+font-size:14px;
+font-weight:bold;
+}
+a:hover {
+	text-decoration: none;
+	color: #337ab7;
+font-family:ARIAL; 
+font-size:14px;
+font-weight:bold;
+}
+a:active {
+	text-decoration: none;
+	color:#337ab7; /*#FFFFFF;*/
+font-family:ARIAL; 
+font-size:14px;
+font-weight:bold;
+}
+#downloadSampleLinkId {
+    color:blue;
+}
+
+#reportLinkID{
+    color:blue;
+}
+#sampleDownloadURL{
+    color:blue;
+}
+.headings{
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px; 
+	FONT-FAMILY: Tahoma;
+	color:#FFFFFF;
+	background-color: #3e5d95;
+}
+.subHeadings{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px; 
+	FONT-FAMILY: Tahoma;
+	color:#000000;
+}
+.smallHeadings{
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+    COLOR: #FFFFFF;
+	background-color: #3e5d95;
+}
+.displayMessage{
+	FONT-WEIGHT: bold; 
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px; 
+	COLOR: #cc0000
+}
+.dispalyFields{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Tahoma;
+}
+.dispalyDBFields{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #F7FF80;
+}
+.inputFields{
+        border: 3px double #CCCCCC;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #3e5d95;
+}
+
+.heref{   FONT-WEIGHT: bold;   FONT-SIZE: 11px;   FONT-FAMILY: Tahoma;   Color: #003399;  font-family:ARIAL;  text-decoration: underline; }
+
+.image_position
+{
+position:relative;
+top:-13px;
+left:0px;
+}
+.image_position2
+{
+position:relative;
+top:5px;
+right:35px;
+}
+
+.href {
+	color: #003399
+}
+
+/*
+.scrol{
+
+tbody.scrollContent {
+display: block;
+height: 262px;
+overflow: auto;width: 70%;
+}*/
+
+.gradient {
+	/*width: 1340px;
+	height: 650px;*/
+	background: #999; /* for non-css3 browsers */
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #2C5976, endColorstr = #DBE383 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C5976', endColorstr='#DBE383',GradientType=0 ); 
+	/* for webkit browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#2C5976),to(#DBE383) );
+	/* for firefox 3.6+ */
+	background: -moz-linear-gradient(top, #2C5976, #DBE383);
+        background-image: -ms-linear-gradient(top, #2C5976 0%, #DBE383 100%);
+        /*B7E0FD,93D1FD,96CAFD,66AADD,C8E3FD*//*285676*/
+        /* W3C Markup, IE10 Release Preview */ 
+        
+        
+        
+}
+
+/*code to put footer always at the bottom*/
+.wrapper {
+	min-height: 100%;
+/*	height: auto !important;
+	height: 100%;
+	margin: 0 auto -20px; /* the bottom margin is the negative value of the footer's height */
+        margin:0;
+        padding:10px 0 0 10px;         
+
+}
+.footer, .push {
+		/*height: 20px; /* .push must be the same height as .footer */
+       /* background-image: url("images/plain_blue.jpg");background-repeat:repeat-x;
+        /* border: 1px solid black;*/
+                position:absolute;
+		bottom:0;
+		width:100%;
+		height:20px;			/* Height of the footer */
+}
+
+.indexlink{
+color:white; 
+font-family:ARIAL; 
+font-size:18px;
+}
+.footerPlain {
+		/*height: 20px; /* .push must be the same height as .footer */
+       /* background-image: url("images/plain_blue.jpg");background-repeat:repeat-x;
+        /* border: 1px solid black;*/
+                position:absolute;
+		bottom:0;
+		width:100%;
+		height:20px;			/* Height of the footer */
+		
+}
+
+.fixedIndexHeader{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+ 
+}

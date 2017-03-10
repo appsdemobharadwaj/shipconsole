@@ -1,0 +1,102 @@
+
+    
+    .sideHeadings {
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    text-shadow: 0 1px white;
+    background: #f3f3f3;
+   
+    @include linear-gradient(top, whiteffd, #eef2f5);
+    @include box-shadow(0 1px #f5f5f5);
+  }
+
+    
+    
+.back
+{
+border:2px solid #a1a1a1;
+padding:5px 20px; 
+
+border-radius:25px;
+-moz-border-radius:25px;
+-webkit-border-radius:25px;
+
+box-shadow: 10px 10px 5px #888888;
+-moz-box-shadow: 10px 10px 5px #888888;
+-webkit-box-shadow: 10px 10px 5px #888888;
+   /* box-shadow: 3px 3px 4px #ccc;  For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 10, Direction = 135, Color = '#888888');
+    
+
+background:white;  /*dddddd*/ /* for non-css3 browsers */
+
+}
+
+ 
+.but {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  @include box-sizing(content-box); // Firefox sets this to border-box by default
+  @include linear-gradient(top, #edf5f8, #cde5ef);
+  @include box-shadow(inset 0 1px white, 0 1px 2px rgba(black, .15));
+
+  &:active {
+    background: #cde5ef;
+    border-color: #9eb9c2 #b3c0c8 #b4ccce;
+    @include box-shadow(inset 0 0 3px rgba(black, .2));
+  }
+}
+
+
+.gradient {
+	/*width: 1340px;
+	height: 650px;*/
+	background: #999; /* for non-css3 browsers */
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #2C5976, endColorstr = #DBE383 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C5976', endColorstr='#DBE383',GradientType=0 ); 
+	/* for webkit browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#2C5976),to(#DBE383) );
+	/* for firefox 3.6+ */
+	background: -moz-linear-gradient(top, #2C5976, #DBE383);
+        background-image: -ms-linear-gradient(top, #2C5976 0%, #DBE383 100%);
+        /*B7E0FD,93D1FD,96CAFD,66AADD,C8E3FD*/
+        /* W3C Markup, IE10 Release Preview */ 
+        
+        
+        
+}
+.loginbox{
+border-color:Gray   ;
+border-style:solid ;
+padding: 30px;
+width:80%;
+/* For Internet Explorer 5.5 - 7 */
+	filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #FFFFFF, endColorstr = #CDD882 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#CDD882',GradientType=0 ); 
+	/* for webkit browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF),to(#CDD882) );
+	/* for firefox 3.6+ */
+	background: -moz-linear-gradient(top, #FFFFFF, #CDD882);
+        background-image: -ms-linear-gradient(top, #FFFFFF 0%, #CDD882 100%);}
+}
+ 

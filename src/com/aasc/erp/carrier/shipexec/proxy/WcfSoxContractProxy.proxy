@@ -1,0 +1,1981 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="WcfSoxContract.java"/>
+      <url path="runtime/WcfSoxContract_Impl.java"/>
+      <url path="IwcfPack.java"/>
+      <url path="IwcfClient.java"/>
+      <url path="IwcfShip.java"/>
+      <url path="types/psi/wcf/WeightUnits.java"/>
+      <url path="types/psi/wcf/Dimension_units.java"/>
+      <url path="types/psi/wcf/LoadDirection.java"/>
+      <url path="types/psi/wcf/Orientation.java"/>
+      <url path="types/psi/wcf/ContainerType.java"/>
+      <url path="types/psi/wcf/MessageType.java"/>
+      <url path="types/psi/wcf/DocType.java"/>
+      <url path="types/psi/wcf/Actions.java"/>
+      <url path="types/psi/wcf/Image_type.java"/>
+      <url path="types/psi/wcf/ScanShipMode.java"/>
+      <url path="types/psi/wcf/BatchLoadType.java"/>
+      <url path="types/psi/wcf/ProcessBatchMode.java"/>
+      <url path="types/psi/wcf/SearchCloseoutStatus.java"/>
+      <url path="types/psi/wcf/PackRateType.java"/>
+      <url path="types/psi/wcf/PackRateRequest.java"/>
+      <url path="types/psi/wcf/PackRequestBase.java"/>
+      <url path="types/psi/wcf/PackRequest.java"/>
+      <url path="types/psi/wcf/ArrayOfPackOrderLine.java"/>
+      <url path="types/psi/wcf/PackOrderLine.java"/>
+      <url path="types/psi/wcf/Weight.java"/>
+      <url path="types/psi/wcf/Dimensions.java"/>
+      <url path="types/psi/wcf/Nesting.java"/>
+      <url path="types/psi/wcf/ArrayOfColdPack.java"/>
+      <url path="types/psi/wcf/ColdPack.java"/>
+      <url path="types/psi/wcf/ArrayOfWarehouse.java"/>
+      <url path="types/psi/wcf/Warehouse.java"/>
+      <url path="types/psi/wcf/WarehouseBase.java"/>
+      <url path="types/psi/wcf/ArrayOfContainer.java"/>
+      <url path="types/psi/wcf/Container.java"/>
+      <url path="types/psi/wcf/ShippingWarehouse.java"/>
+      <url path="types/psi/wcf/ArrayOfString.java"/>
+      <url path="types/psi/wcf/PackageRequest.java"/>
+      <url path="types/psi/wcf/ErrorBase.java"/>
+      <url path="types/psi/wcf/CompoundErrorBase.java"/>
+      <url path="types/psi/wcf/ArrayOfCompoundError.java"/>
+      <url path="types/psi/wcf/CompoundError.java"/>
+      <url path="types/psi/wcf/BatchBase.java"/>
+      <url path="types/psi/wcf/BatchResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfBatchResponseItem.java"/>
+      <url path="types/psi/wcf/BatchResponseItem.java"/>
+      <url path="types/psi/wcf/BatchItemBase.java"/>
+      <url path="types/psi/wcf/BatchRequestItem.java"/>
+      <url path="types/psi/wcf/ShipmentRequest.java"/>
+      <url path="types/psi/wcf/Package.java"/>
+      <url path="types/psi/wcf/ArrayOfAlcoholContent.java"/>
+      <url path="types/psi/wcf/AlcoholContent.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxDictionaryItem.java"/>
+      <url path="types/psi/wcf/SoxDictionaryItem.java"/>
+      <url path="types/psi/wcf/NameAddress.java"/>
+      <url path="types/psi/wcf/NameAddressValidationCandidate.java"/>
+      <url path="types/psi/wcf/AddressRecord.java"/>
+      <url path="types/psi/wcf/ArrayOfLong.java"/>
+      <url path="types/psi/wcf/ArrayOfCommodityContent.java"/>
+      <url path="types/psi/wcf/CommodityContent.java"/>
+      <url path="types/psi/wcf/ArrayOfHazMatContent.java"/>
+      <url path="types/psi/wcf/HazMatContent.java"/>
+      <url path="types/psi/wcf/ClientContext.java"/>
+      <url path="types/psi/wcf/ArrayOfPackageRequest.java"/>
+      <url path="types/psi/wcf/PrintRequest.java"/>
+      <url path="types/psi/wcf/ShipmentResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfPackageResponse.java"/>
+      <url path="types/psi/wcf/PackageResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxDocument.java"/>
+      <url path="types/psi/wcf/SoxDocument.java"/>
+      <url path="types/psi/wcf/BatchRequest.java"/>
+      <url path="types/psi/wcf/ArrayOfBatchRequestItem.java"/>
+      <url path="types/psi/wcf/SoxReturn.java"/>
+      <url path="types/psi/wcf/CloseGroupResponse.java"/>
+      <url path="types/psi/wcf/Group.java"/>
+      <url path="types/psi/wcf/PackDetailBase.java"/>
+      <url path="types/psi/wcf/PackDetail.java"/>
+      <url path="types/psi/wcf/ArrayOfPackOrderLineError.java"/>
+      <url path="types/psi/wcf/PackOrderLineError.java"/>
+      <url path="types/psi/wcf/ArrayOfPack.java"/>
+      <url path="types/psi/wcf/Pack.java"/>
+      <url path="types/psi/wcf/PackBase.java"/>
+      <url path="types/psi/wcf/PackRate.java"/>
+      <url path="types/psi/wcf/PackRateDetail.java"/>
+      <url path="types/psi/wcf/ArrayOfPackRate.java"/>
+      <url path="types/psi/wcf/ModifyPackageListResult.java"/>
+      <url path="types/psi/wcf/ArrayOfModifyPackageResult.java"/>
+      <url path="types/psi/wcf/ModifyPackageResult.java"/>
+      <url path="types/psi/wcf/Grouping.java"/>
+      <url path="types/psi/wcf/PackResponseBase.java"/>
+      <url path="types/psi/wcf/PackRateResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfPackRateDetail.java"/>
+      <url path="types/psi/wcf/PackResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfPackDetail.java"/>
+      <url path="types/psi/wcf/CloseOutResult.java"/>
+      <url path="types/psi/wcf/ArrayOfTransmitItem.java"/>
+      <url path="types/psi/wcf/TransmitItem.java"/>
+      <url path="types/psi/wcf/ShipFile.java"/>
+      <url path="types/psi/wcf/LicenseValidationResponse.java"/>
+      <url path="types/psi/wcf/ReProcessResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfShippingWarehouse.java"/>
+      <url path="types/psi/wcf/PackRateResponseType.java"/>
+      <url path="types/psi/wcf/PackType.java"/>
+      <url path="types/psi/wcf/PackResponseType.java"/>
+      <url path="types/psi/wcf/GetSettings.java"/>
+      <url path="types/psi/wcf/GetSettingsResponse.java"/>
+      <url path="types/psi/wcf/ClientSettings.java"/>
+      <url path="types/psi/wcf/ApplicationSettings.java"/>
+      <url path="types/psi/wcf/MachineProfile.java"/>
+      <url path="types/psi/wcf/SoxScale.java"/>
+      <url path="types/psi/wcf/ArrayOfPrinterMapping.java"/>
+      <url path="types/psi/wcf/PrinterMapping.java"/>
+      <url path="types/psi/wcf/Printer.java"/>
+      <url path="types/psi/wcf/UserProfile.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxProperty.java"/>
+      <url path="types/psi/wcf/SoxProperty.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxCountry.java"/>
+      <url path="types/psi/wcf/SoxCountry.java"/>
+      <url path="types/psi/wcf/SoxCurrency.java"/>
+      <url path="types/psi/wcf/ArrayOfBoxType.java"/>
+      <url path="types/psi/wcf/BoxType.java"/>
+      <url path="types/psi/wcf/BusinessRules.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxControlProperty.java"/>
+      <url path="types/psi/wcf/SoxControlProperty.java"/>
+      <url path="types/psi/wcf/Type.java"/>
+      <url path="types/psi/wcf/MemberInfo.java"/>
+      <url path="types/psi/wcf/DocProfile.java"/>
+      <url path="types/psi/wcf/LogUserTransaction.java"/>
+      <url path="types/psi/wcf/LogUserTransactionResponse.java"/>
+      <url path="types/psi/wcf/GetAddressBook.java"/>
+      <url path="types/psi/wcf/GetAddressBookResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfAddressRecord.java"/>
+      <url path="types/psi/wcf/UpdateAddressRecord.java"/>
+      <url path="types/psi/wcf/UpdateAddressRecordResponse.java"/>
+      <url path="types/psi/wcf/InsertAddressRecordbyUser.java"/>
+      <url path="types/psi/wcf/InsertAddressRecordbyUserResponse.java"/>
+      <url path="types/psi/wcf/InsertAddressRecord.java"/>
+      <url path="types/psi/wcf/InsertAddressRecordResponse.java"/>
+      <url path="types/psi/wcf/DeleteAddressRecord.java"/>
+      <url path="types/psi/wcf/DeleteAddressRecordResponse.java"/>
+      <url path="types/psi/wcf/DeleteAddressRecordbyUser.java"/>
+      <url path="types/psi/wcf/DeleteAddressRecordbyUserResponse.java"/>
+      <url path="types/psi/wcf/SearchAddressBook.java"/>
+      <url path="types/psi/wcf/SearchAddressBookResponse.java"/>
+      <url path="types/psi/wcf/GetAddressRecord.java"/>
+      <url path="types/psi/wcf/GetAddressRecordResponse.java"/>
+      <url path="types/psi/wcf/GetAddressCategories.java"/>
+      <url path="types/psi/wcf/GetAddressCategoriesResponse.java"/>
+      <url path="types/psi/wcf/AddAddressCategory.java"/>
+      <url path="types/psi/wcf/AddAddressCategoryResponse.java"/>
+      <url path="types/psi/wcf/DeleteAddressCategory.java"/>
+      <url path="types/psi/wcf/DeleteAddressCategoryResponse.java"/>
+      <url path="types/psi/wcf/GetCommodityContents.java"/>
+      <url path="types/psi/wcf/GetCommodityContentsResponse.java"/>
+      <url path="types/psi/wcf/UpdateCommondityContent.java"/>
+      <url path="types/psi/wcf/UpdateCommondityContentResponse.java"/>
+      <url path="types/psi/wcf/InsertCommondityContent.java"/>
+      <url path="types/psi/wcf/InsertCommondityContentResponse.java"/>
+      <url path="types/psi/wcf/InsertCommondityContentbyUser.java"/>
+      <url path="types/psi/wcf/InsertCommondityContentbyUserResponse.java"/>
+      <url path="types/psi/wcf/DeleteCommodityContent.java"/>
+      <url path="types/psi/wcf/DeleteCommodityContentResponse.java"/>
+      <url path="types/psi/wcf/DeleteCommodityContentbyUser.java"/>
+      <url path="types/psi/wcf/DeleteCommodityContentbyUserResponse.java"/>
+      <url path="types/psi/wcf/GetUserProfile.java"/>
+      <url path="types/psi/wcf/GetUserProfileResponse.java"/>
+      <url path="types/psi/wcf/UpdateUserProfile.java"/>
+      <url path="types/psi/wcf/UpdateUserProfileResponse.java"/>
+      <url path="types/psi/wcf/DeleteUserProfile.java"/>
+      <url path="types/psi/wcf/DeleteUserProfileResponse.java"/>
+      <url path="types/psi/wcf/GetUserProfiles.java"/>
+      <url path="types/psi/wcf/GetUserProfilesResponse.java"/>
+      <url path="types/psi/wcf/AddUserProfile.java"/>
+      <url path="types/psi/wcf/AddUserProfileResponse.java"/>
+      <url path="types/psi/wcf/AddMachineProfile.java"/>
+      <url path="types/psi/wcf/AddMachineProfileResponse.java"/>
+      <url path="types/psi/wcf/GetMachineProfile.java"/>
+      <url path="types/psi/wcf/GetMachineProfileResponse.java"/>
+      <url path="types/psi/wcf/UpdateMachineProfile.java"/>
+      <url path="types/psi/wcf/UpdateMachineProfileResponse.java"/>
+      <url path="types/psi/wcf/DeleteMachineProfile.java"/>
+      <url path="types/psi/wcf/DeleteMachineProfileResponse.java"/>
+      <url path="types/psi/wcf/GetMachineProfiles.java"/>
+      <url path="types/psi/wcf/GetMachineProfilesResponse.java"/>
+      <url path="types/psi/wcf/AddMachine.java"/>
+      <url path="types/psi/wcf/AddMachineResponse.java"/>
+      <url path="types/psi/wcf/GetMachine.java"/>
+      <url path="types/psi/wcf/GetMachineResponse.java"/>
+      <url path="types/psi/wcf/UpdateMachine.java"/>
+      <url path="types/psi/wcf/UpdateMachineResponse.java"/>
+      <url path="types/psi/wcf/DeleteMachine.java"/>
+      <url path="types/psi/wcf/DeleteMachineResponse.java"/>
+      <url path="types/psi/wcf/GetMachines.java"/>
+      <url path="types/psi/wcf/GetMachinesResponse.java"/>
+      <url path="types/psi/wcf/GetUser.java"/>
+      <url path="types/psi/wcf/GetUserResponse.java"/>
+      <url path="types/psi/wcf/UpdateUser.java"/>
+      <url path="types/psi/wcf/UpdateUserResponse.java"/>
+      <url path="types/psi/wcf/DeleteUser.java"/>
+      <url path="types/psi/wcf/DeleteUserResponse.java"/>
+      <url path="types/psi/wcf/GetUsers.java"/>
+      <url path="types/psi/wcf/GetUsersResponse.java"/>
+      <url path="types/psi/wcf/AddUser.java"/>
+      <url path="types/psi/wcf/AddUserResponse.java"/>
+      <url path="types/psi/wcf/GetCarriersByUserAndShipper.java"/>
+      <url path="types/psi/wcf/GetCarriersByUserAndShipperResponse.java"/>
+      <url path="types/psi/wcf/GetApplicationSettings.java"/>
+      <url path="types/psi/wcf/GetApplicationSettingsResponse.java"/>
+      <url path="types/psi/wcf/UpdateApplicationSettings.java"/>
+      <url path="types/psi/wcf/UpdateApplicationSettingsResponse.java"/>
+      <url path="types/psi/wcf/AddShipper.java"/>
+      <url path="types/psi/wcf/AddShipperResponse.java"/>
+      <url path="types/psi/wcf/ChangeShipperSymbol.java"/>
+      <url path="types/psi/wcf/ChangeShipperSymbolResponse.java"/>
+      <url path="types/psi/wcf/DeleteShipper.java"/>
+      <url path="types/psi/wcf/DeleteShipperResponse.java"/>
+      <url path="types/psi/wcf/GetCarriers.java"/>
+      <url path="types/psi/wcf/GetCarriersResponse.java"/>
+      <url path="types/psi/wcf/GetCommitments.java"/>
+      <url path="types/psi/wcf/GetCommitmentsResponse.java"/>
+      <url path="types/psi/wcf/GetCommodityClasses.java"/>
+      <url path="types/psi/wcf/GetCommodityClassesResponse.java"/>
+      <url path="types/psi/wcf/GetCurrencyByCountryLocale.java"/>
+      <url path="types/psi/wcf/GetCurrencyByCountryLocaleResponse.java"/>
+      <url path="types/psi/wcf/GetCurrencyByCountry.java"/>
+      <url path="types/psi/wcf/GetCurrencyByCountryResponse.java"/>
+      <url path="types/psi/wcf/GetDeviceDrivers.java"/>
+      <url path="types/psi/wcf/GetDeviceDriversResponse.java"/>
+      <url path="types/psi/wcf/GetHolidays.java"/>
+      <url path="types/psi/wcf/GetHolidaysResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfHoliday.java"/>
+      <url path="types/psi/wcf/Holiday.java"/>
+      <url path="types/psi/wcf/GetIncoterms.java"/>
+      <url path="types/psi/wcf/GetIncotermsResponse.java"/>
+      <url path="types/psi/wcf/GetLanguages.java"/>
+      <url path="types/psi/wcf/GetLanguagesResponse.java"/>
+      <url path="types/psi/wcf/GetNameAddressValidationCandidates.java"/>
+      <url path="types/psi/wcf/GetNameAddressValidationCandidatesResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfNameAddressValidationCandidate.java"/>
+      <url path="types/psi/wcf/GetNameAddressValidationCandidatesWithParams.java"/>
+      <url path="types/psi/wcf/GetNameAddressValidationCandidatesWithParamsResponse.java"/>
+      <url path="types/psi/wcf/GetNextValidShipDate.java"/>
+      <url path="types/psi/wcf/GetNextValidShipDateResponse.java"/>
+      <url path="types/psi/wcf/GetPackageTypes.java"/>
+      <url path="types/psi/wcf/GetPackageTypesResponse.java"/>
+      <url path="types/psi/wcf/GetPaymentTypes.java"/>
+      <url path="types/psi/wcf/GetPaymentTypesResponse.java"/>
+      <url path="types/psi/wcf/GetServices.java"/>
+      <url path="types/psi/wcf/GetServicesResponse.java"/>
+      <url path="types/psi/wcf/GetShipFileDocuments.java"/>
+      <url path="types/psi/wcf/GetShipFileDocumentsResponse.java"/>
+      <url path="types/psi/wcf/GetDocumentFormats.java"/>
+      <url path="types/psi/wcf/GetDocumentFormatsResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxDoc.java"/>
+      <url path="types/psi/wcf/SoxDoc.java"/>
+      <url path="types/psi/wcf/GetShipperNameAddress.java"/>
+      <url path="types/psi/wcf/GetShipperNameAddressResponse.java"/>
+      <url path="types/psi/wcf/GetShippers.java"/>
+      <url path="types/psi/wcf/GetShippersResponse.java"/>
+      <url path="types/psi/wcf/GetUnitOfMeasures.java"/>
+      <url path="types/psi/wcf/GetUnitOfMeasuresResponse.java"/>
+      <url path="types/psi/wcf/GetWeightUnitByCountryLocale.java"/>
+      <url path="types/psi/wcf/GetWeightUnitByCountryLocaleResponse.java"/>
+      <url path="types/psi/wcf/InspectNameAddress.java"/>
+      <url path="types/psi/wcf/InspectNameAddressResponse.java"/>
+      <url path="types/psi/wcf/IsValidShipDate.java"/>
+      <url path="types/psi/wcf/IsValidShipDateResponse.java"/>
+      <url path="types/psi/wcf/GetCarriersbyShippers.java"/>
+      <url path="types/psi/wcf/GetCarriersbyShippersResponse.java"/>
+      <url path="types/psi/wcf/GetServicesbyCarriers.java"/>
+      <url path="types/psi/wcf/GetServicesbyCarriersResponse.java"/>
+      <url path="types/psi/wcf/ValidateEntitlements.java"/>
+      <url path="types/psi/wcf/ArrayOfLicenseValidationRequest.java"/>
+      <url path="types/psi/wcf/LicenseValidationRequest.java"/>
+      <url path="types/psi/wcf/ValidateEntitlementsResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfLicenseValidationResponse.java"/>
+      <url path="types/psi/wcf/InsertSoxDbPackage.java"/>
+      <url path="types/psi/wcf/InsertSoxDbPackageResponse.java"/>
+      <url path="types/psi/wcf/UpdateSoxDbPackage.java"/>
+      <url path="types/psi/wcf/UpdateSoxDbPackageResponse.java"/>
+      <url path="types/psi/wcf/GetScales.java"/>
+      <url path="types/psi/wcf/GetScalesResponse.java"/>
+      <url path="types/psi/wcf/InstantiateWCF.java"/>
+      <url path="types/psi/wcf/InstantiateWCFResponse.java"/>
+      <url path="types/psi/wcf/ProcessBatch.java"/>
+      <url path="types/psi/wcf/ProcessBatchResponse.java"/>
+      <url path="types/psi/wcf/AddShipmentToBatch.java"/>
+      <url path="types/psi/wcf/AddShipmentToBatchResponse.java"/>
+      <url path="types/psi/wcf/ProcessBatchByRequest.java"/>
+      <url path="types/psi/wcf/ProcessBatchByRequestResponse.java"/>
+      <url path="types/psi/wcf/GetBatchCount.java"/>
+      <url path="types/psi/wcf/GetBatchCountResponse.java"/>
+      <url path="types/psi/wcf/LoadBatch.java"/>
+      <url path="types/psi/wcf/LoadBatchResponse.java"/>
+      <url path="types/psi/wcf/StageBatch.java"/>
+      <url path="types/psi/wcf/StageBatchResponse.java"/>
+      <url path="types/psi/wcf/RemoveBatch.java"/>
+      <url path="types/psi/wcf/RemoveBatchResponse.java"/>
+      <url path="types/psi/wcf/CreateBatch.java"/>
+      <url path="types/psi/wcf/CreateBatchResponse.java"/>
+      <url path="types/psi/wcf/RemoveBatchItem.java"/>
+      <url path="types/psi/wcf/RemoveBatchItemResponse.java"/>
+      <url path="types/psi/wcf/ShipBatchItem.java"/>
+      <url path="types/psi/wcf/ShipBatchItemResponse.java"/>
+      <url path="types/psi/wcf/LoadBatchItem.java"/>
+      <url path="types/psi/wcf/LoadBatchItemResponse.java"/>
+      <url path="types/psi/wcf/GetStagedBatches.java"/>
+      <url path="types/psi/wcf/GetStagedBatchesResponse.java"/>
+      <url path="types/psi/wcf/GetStagedBatch.java"/>
+      <url path="types/psi/wcf/GetStagedBatchResponse.java"/>
+      <url path="types/psi/wcf/GetBatchShipmentErrors.java"/>
+      <url path="types/psi/wcf/GetBatchShipmentErrorsResponse.java"/>
+      <url path="types/psi/wcf/PrintBatch.java"/>
+      <url path="types/psi/wcf/PrintBatchResponse.java"/>
+      <url path="types/psi/wcf/Sox_Version.java"/>
+      <url path="types/psi/wcf/Sox_VersionResponse.java"/>
+      <url path="types/psi/wcf/Sox_Db_Version.java"/>
+      <url path="types/psi/wcf/Sox_Db_VersionResponse.java"/>
+      <url path="types/psi/wcf/App_Db_Version.java"/>
+      <url path="types/psi/wcf/App_Db_VersionResponse.java"/>
+      <url path="types/psi/wcf/CSAdapter_Version.java"/>
+      <url path="types/psi/wcf/CSAdapter_VersionResponse.java"/>
+      <url path="types/psi/wcf/ManagementLayer_Version.java"/>
+      <url path="types/psi/wcf/ManagementLayer_VersionResponse.java"/>
+      <url path="types/psi/wcf/Business_Object_Version.java"/>
+      <url path="types/psi/wcf/Business_Object_VersionResponse.java"/>
+      <url path="types/psi/wcf/Load.java"/>
+      <url path="types/psi/wcf/LoadResponse.java"/>
+      <url path="types/psi/wcf/UserMethod.java"/>
+      <url path="types/psi/wcf/UserMethodResponse.java"/>
+      <url path="types/psi/wcf/Validate.java"/>
+      <url path="types/psi/wcf/ValidateResponse.java"/>
+      <url path="types/psi/wcf/CloseOutBySymbols.java"/>
+      <url path="types/psi/wcf/CloseOutBySymbolsResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfCloseOutResult.java"/>
+      <url path="types/psi/wcf/GetCloseOutMode.java"/>
+      <url path="types/psi/wcf/GetCloseOutModeResponse.java"/>
+      <url path="types/psi/wcf/SetCloseOutMode.java"/>
+      <url path="types/psi/wcf/SetCloseOutModeResponse.java"/>
+      <url path="types/psi/wcf/GetCloseOutItems.java"/>
+      <url path="types/psi/wcf/GetCloseOutItemsResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfCloseOutItem.java"/>
+      <url path="types/psi/wcf/CloseOutItem.java"/>
+      <url path="types/psi/wcf/CloseOutBySymbolsAndPrint.java"/>
+      <url path="types/psi/wcf/CloseOutBySymbolsAndPrintResponse.java"/>
+      <url path="types/psi/wcf/ReShip.java"/>
+      <url path="types/psi/wcf/ReShipResponse.java"/>
+      <url path="types/psi/wcf/ReProcess.java"/>
+      <url path="types/psi/wcf/ArrayOfInt.java"/>
+      <url path="types/psi/wcf/ReProcessResponseType.java"/>
+      <url path="types/psi/wcf/ModifyPackageList.java"/>
+      <url path="types/psi/wcf/ModifyPackageListResponse.java"/>
+      <url path="types/psi/wcf/GetSearchFieldList.java"/>
+      <url path="types/psi/wcf/GetSearchFieldListResponse.java"/>
+      <url path="types/psi/wcf/GetSearchFieldswithType.java"/>
+      <url path="types/psi/wcf/GetSearchFieldswithTypeResponse.java"/>
+      <url path="types/psi/wcf/SearchByGlobalMsn.java"/>
+      <url path="types/psi/wcf/SearchByGlobalMsnResponse.java"/>
+      <url path="types/psi/wcf/SearchByGlobalBundleId.java"/>
+      <url path="types/psi/wcf/SearchByGlobalBundleIdResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfPackage.java"/>
+      <url path="types/psi/wcf/SearchByShipperReference.java"/>
+      <url path="types/psi/wcf/SearchByShipperReferenceResponse.java"/>
+      <url path="types/psi/wcf/SearchByShipperReferenceWithCount.java"/>
+      <url path="types/psi/wcf/SearchByShipperReferenceWithCountResponse.java"/>
+      <url path="types/psi/wcf/SearchByConsigneeReference.java"/>
+      <url path="types/psi/wcf/SearchByConsigneeReferenceResponse.java"/>
+      <url path="types/psi/wcf/SearchByConsigneeReferenceWithCount.java"/>
+      <url path="types/psi/wcf/SearchByConsigneeReferenceWithCountResponse.java"/>
+      <url path="types/psi/wcf/SearchByTrackingNumber.java"/>
+      <url path="types/psi/wcf/SearchByTrackingNumberResponse.java"/>
+      <url path="types/psi/wcf/SearchByTrackingNumberWithCount.java"/>
+      <url path="types/psi/wcf/SearchByTrackingNumberWithCountResponse.java"/>
+      <url path="types/psi/wcf/SearchByFilter.java"/>
+      <url path="types/psi/wcf/SearchByFilterResponse.java"/>
+      <url path="types/psi/wcf/SearchByFilters.java"/>
+      <url path="types/psi/wcf/SearchByFiltersResponse.java"/>
+      <url path="types/psi/wcf/SearchByShipperAndShipdate.java"/>
+      <url path="types/psi/wcf/SearchByShipperAndShipdateResponse.java"/>
+      <url path="types/psi/wcf/SearchByShipperAndShipdateWithCount.java"/>
+      <url path="types/psi/wcf/SearchByShipperAndShipdateWithCountResponse.java"/>
+      <url path="types/psi/wcf/SearchByShipperAndShipdateAndStatus.java"/>
+      <url path="types/psi/wcf/SearchByShipperAndShipdateAndStatusResponse.java"/>
+      <url path="types/psi/wcf/SearchPackageHistory.java"/>
+      <url path="types/psi/wcf/SearchPackageHistoryResponse.java"/>
+      <url path="types/psi/wcf/SearchByShipFileID.java"/>
+      <url path="types/psi/wcf/SearchByShipFileIDResponse.java"/>
+      <url path="types/psi/wcf/Ship.java"/>
+      <url path="types/psi/wcf/ShipResponse.java"/>
+      <url path="types/psi/wcf/ShipOrder.java"/>
+      <url path="types/psi/wcf/ShipOrderResponse.java"/>
+      <url path="types/psi/wcf/Rate.java"/>
+      <url path="types/psi/wcf/RateResponse.java"/>
+      <url path="types/psi/wcf/RateServices.java"/>
+      <url path="types/psi/wcf/RateServicesResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfShipmentResponse.java"/>
+      <url path="types/psi/wcf/PrintRequestType.java"/>
+      <url path="types/psi/wcf/PrintRequestResponse.java"/>
+      <url path="types/psi/wcf/PrintPositionDocumentXml.java"/>
+      <url path="types/psi/wcf/PrintPositionDocumentXmlResponse.java"/>
+      <url path="types/psi/wcf/PrintDocument.java"/>
+      <url path="types/psi/wcf/PrintDocumentResponse.java"/>
+      <url path="types/psi/wcf/GetAvailablePrinterStocks.java"/>
+      <url path="types/psi/wcf/GetAvailablePrinterStocksResponse.java"/>
+      <url path="types/psi/wcf/GetAvailablePrinters.java"/>
+      <url path="types/psi/wcf/GetAvailablePrintersResponse.java"/>
+      <url path="types/psi/wcf/GetConfiguredPrinters.java"/>
+      <url path="types/psi/wcf/GetConfiguredPrintersResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfPrinter.java"/>
+      <url path="types/psi/wcf/GetPrinter.java"/>
+      <url path="types/psi/wcf/GetPrinterResponse.java"/>
+      <url path="types/psi/wcf/AddPrinter.java"/>
+      <url path="types/psi/wcf/AddPrinterResponse.java"/>
+      <url path="types/psi/wcf/CopyPrinter.java"/>
+      <url path="types/psi/wcf/CopyPrinterResponse.java"/>
+      <url path="types/psi/wcf/UpdatePrinter.java"/>
+      <url path="types/psi/wcf/UpdatePrinterResponse.java"/>
+      <url path="types/psi/wcf/DeletePrinter.java"/>
+      <url path="types/psi/wcf/DeletePrinterResponse.java"/>
+      <url path="types/psi/wcf/GetDocumentProfiles.java"/>
+      <url path="types/psi/wcf/GetDocumentProfilesResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfDocumentProfile.java"/>
+      <url path="types/psi/wcf/DocumentProfile.java"/>
+      <url path="types/psi/wcf/GetDocumentProfile.java"/>
+      <url path="types/psi/wcf/GetDocumentProfileResponse.java"/>
+      <url path="types/psi/wcf/AddDocumentProfile.java"/>
+      <url path="types/psi/wcf/AddDocumentProfileResponse.java"/>
+      <url path="types/psi/wcf/UpdateDocumentProfile.java"/>
+      <url path="types/psi/wcf/UpdateDocumentProfileResponse.java"/>
+      <url path="types/psi/wcf/CopyDocumentProfile.java"/>
+      <url path="types/psi/wcf/CopyDocumentProfileResponse.java"/>
+      <url path="types/psi/wcf/DeleteDocumentProfile.java"/>
+      <url path="types/psi/wcf/DeleteDocumentProfileResponse.java"/>
+      <url path="types/psi/wcf/DeleteHistoryItem.java"/>
+      <url path="types/psi/wcf/DeleteHistoryItemResponse.java"/>
+      <url path="types/psi/wcf/DeleteHistoryItems.java"/>
+      <url path="types/psi/wcf/DeleteHistoryItemsResponse.java"/>
+      <url path="types/psi/wcf/GetHistoryItemList.java"/>
+      <url path="types/psi/wcf/GetHistoryItemListResponse.java"/>
+      <url path="types/psi/wcf/AreTransmitItemsAvailableForDeletion.java"/>
+      <url path="types/psi/wcf/AreTransmitItemsAvailableForDeletionResponse.java"/>
+      <url path="types/psi/wcf/DeleteTransmitItems.java"/>
+      <url path="types/psi/wcf/DeleteTransmitItemsResponse.java"/>
+      <url path="types/psi/wcf/DeleteTransmitItem.java"/>
+      <url path="types/psi/wcf/DeleteTransmitItemResponse.java"/>
+      <url path="types/psi/wcf/GetTransmitItemsAvailableForDeletion.java"/>
+      <url path="types/psi/wcf/GetTransmitItemsAvailableForDeletionResponse.java"/>
+      <url path="types/psi/wcf/GetTransmitItems.java"/>
+      <url path="types/psi/wcf/GetTransmitItemsResponse.java"/>
+      <url path="types/psi/wcf/GetTransmitItemsByStatus.java"/>
+      <url path="types/psi/wcf/GetTransmitItemsByStatusResponse.java"/>
+      <url path="types/psi/wcf/TransmitItemType.java"/>
+      <url path="types/psi/wcf/TransmitItemResponse.java"/>
+      <url path="types/psi/wcf/TransmitItems.java"/>
+      <url path="types/psi/wcf/TransmitItemsResponse.java"/>
+      <url path="types/psi/wcf/GetDeleteTransmitItemsList.java"/>
+      <url path="types/psi/wcf/GetDeleteTransmitItemsListResponse.java"/>
+      <url path="types/psi/wcf/VoidPackageByGlobalMsn.java"/>
+      <url path="types/psi/wcf/VoidPackageByGlobalMsnResponse.java"/>
+      <url path="types/psi/wcf/VoidPackageByTrackingNumber.java"/>
+      <url path="types/psi/wcf/VoidPackageByTrackingNumberResponse.java"/>
+      <url path="types/psi/wcf/VoidPackagesByGlobalMsnList.java"/>
+      <url path="types/psi/wcf/VoidPackagesByGlobalMsnListResponse.java"/>
+      <url path="types/psi/wcf/AdditionalHandlingTypes.java"/>
+      <url path="types/psi/wcf/AdditionalHandlingTypesResponse.java"/>
+      <url path="types/psi/wcf/SoxEnum.java"/>
+      <url path="types/psi/wcf/DryIceRegulationSets.java"/>
+      <url path="types/psi/wcf/DryIceRegulationSetsResponse.java"/>
+      <url path="types/psi/wcf/DryIcePurposes.java"/>
+      <url path="types/psi/wcf/DryIcePurposesResponse.java"/>
+      <url path="types/psi/wcf/AlcoholTypes.java"/>
+      <url path="types/psi/wcf/AlcoholTypesResponse.java"/>
+      <url path="types/psi/wcf/AlcoholPackaging.java"/>
+      <url path="types/psi/wcf/AlcoholPackagingResponse.java"/>
+      <url path="types/psi/wcf/DispositionMethods.java"/>
+      <url path="types/psi/wcf/DispositionMethodsResponse.java"/>
+      <url path="types/psi/wcf/CloseOutModes.java"/>
+      <url path="types/psi/wcf/CloseOutModesResponse.java"/>
+      <url path="types/psi/wcf/DeliveryMethods.java"/>
+      <url path="types/psi/wcf/DeliveryMethodsResponse.java"/>
+      <url path="types/psi/wcf/ReturnAddressMethods.java"/>
+      <url path="types/psi/wcf/ReturnAddressMethodsResponse.java"/>
+      <url path="types/psi/wcf/ReturnDeliveryMethods.java"/>
+      <url path="types/psi/wcf/ReturnDeliveryMethodsResponse.java"/>
+      <url path="types/psi/wcf/CODPaymentMethods.java"/>
+      <url path="types/psi/wcf/CODPaymentMethodsResponse.java"/>
+      <url path="types/psi/wcf/CODReturnMethods.java"/>
+      <url path="types/psi/wcf/CODReturnMethodsResponse.java"/>
+      <url path="types/psi/wcf/HazMatCACategories.java"/>
+      <url path="types/psi/wcf/HazMatCACategoriesResponse.java"/>
+      <url path="types/psi/wcf/HazmatLabels.java"/>
+      <url path="types/psi/wcf/HazmatLabelsResponse.java"/>
+      <url path="types/psi/wcf/HazmatPackingGroups.java"/>
+      <url path="types/psi/wcf/HazmatPackingGroupsResponse.java"/>
+      <url path="types/psi/wcf/HazMatRegulations.java"/>
+      <url path="types/psi/wcf/HazMatRegulationsResponse.java"/>
+      <url path="types/psi/wcf/HazMatRegulationSets.java"/>
+      <url path="types/psi/wcf/HazMatRegulationSetsResponse.java"/>
+      <url path="types/psi/wcf/SEDMethods.java"/>
+      <url path="types/psi/wcf/SEDMethodsResponse.java"/>
+      <url path="types/psi/wcf/COMethods.java"/>
+      <url path="types/psi/wcf/COMethodsResponse.java"/>
+      <url path="types/psi/wcf/CommercialInvoiceMethods.java"/>
+      <url path="types/psi/wcf/CommercialInvoiceMethodsResponse.java"/>
+      <url path="types/psi/wcf/NAFTARVCMethods.java"/>
+      <url path="types/psi/wcf/NAFTARVCMethodsResponse.java"/>
+      <url path="types/psi/wcf/NAFTAPreferenceCriterion.java"/>
+      <url path="types/psi/wcf/NAFTAPreferenceCriterionResponse.java"/>
+      <url path="types/psi/wcf/NAFTAProducer.java"/>
+      <url path="types/psi/wcf/NAFTAProducerResponse.java"/>
+      <url path="types/psi/wcf/ExchangeMethods.java"/>
+      <url path="types/psi/wcf/ExchangeMethodsResponse.java"/>
+      <url path="types/psi/wcf/HazmatPhysicalForm.java"/>
+      <url path="types/psi/wcf/HazmatPhysicalFormResponse.java"/>
+      <url path="types/psi/wcf/HazmatRadioactiveException.java"/>
+      <url path="types/psi/wcf/HazmatRadioactiveExceptionResponse.java"/>
+      <url path="types/psi/wcf/BrokerageMethod.java"/>
+      <url path="types/psi/wcf/BrokerageMethodResponse.java"/>
+      <url path="types/psi/wcf/ChargesOnDocumentation.java"/>
+      <url path="types/psi/wcf/ChargesOnDocumentationResponse.java"/>
+      <url path="types/psi/wcf/CommodityCondition.java"/>
+      <url path="types/psi/wcf/CommodityConditionResponse.java"/>
+      <url path="types/psi/wcf/GetCountries.java"/>
+      <url path="types/psi/wcf/GetCountriesResponse.java"/>
+      <url path="types/psi/wcf/GetCurrencies.java"/>
+      <url path="types/psi/wcf/GetCurrenciesResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxCurrency.java"/>
+      <url path="types/psi/wcf/CloseGroup.java"/>
+      <url path="types/psi/wcf/CloseGroupResponseType.java"/>
+      <url path="types/psi/wcf/CloseGroupAndPrint.java"/>
+      <url path="types/psi/wcf/CloseGroupAndPrintResponse.java"/>
+      <url path="types/psi/wcf/GetGroup.java"/>
+      <url path="types/psi/wcf/GetGroupResponse.java"/>
+      <url path="types/psi/wcf/GetGroupDocuments.java"/>
+      <url path="types/psi/wcf/GetGroupDocumentsResponse.java"/>
+      <url path="types/psi/wcf/GetGroupings.java"/>
+      <url path="types/psi/wcf/GetGroupingsResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfGrouping.java"/>
+      <url path="types/psi/wcf/GetGroups.java"/>
+      <url path="types/psi/wcf/GetGroupsResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfGroup.java"/>
+      <url path="types/psi/wcf/ModifyGroup.java"/>
+      <url path="types/psi/wcf/ModifyGroupResponse.java"/>
+      <url path="types/psi/wcf/OpenGroup.java"/>
+      <url path="types/psi/wcf/OpenGroupResponse.java"/>
+      <url path="types/psi/wcf/GetGroupingTypes.java"/>
+      <url path="types/psi/wcf/GetGroupingTypesResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfSoxGroupingType.java"/>
+      <url path="types/psi/wcf/SoxGroupingType.java"/>
+      <url path="types/psi/wcf/CreateGroup.java"/>
+      <url path="types/psi/wcf/CreateGroupResponse.java"/>
+      <url path="types/psi/wcf/ArrayOfNameAddress.java"/>
+      <url path="types/psi/wcf/runtime/WeightUnits_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/Dimension_units_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/LoadDirection_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/Orientation_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/ContainerType_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/MessageType_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/DocType_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/Actions_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/Image_type_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/ScanShipMode_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/BatchLoadType_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/ProcessBatchMode_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/SearchCloseoutStatus_Encoder.java"/>
+      <url path="types/psi/wcf/runtime/PackRequestBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/WarehouseBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ErrorBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CompoundErrorBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchItemBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NameAddress_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackDetailBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackResponseBase_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/MemberInfo_InterfaceSOAPSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Weight_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Dimensions_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Nesting_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackOrderLine_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackOrderLine_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ColdPack_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfColdPack_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxDictionaryItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxDictionaryItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AlcoholContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfAlcoholContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NameAddress_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NameAddressValidationCandidate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddressRecord_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CommodityContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfCommodityContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfHazMatContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackageRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ErrorBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CompoundError_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfLong_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfString_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ClientContext_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Package_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxDocument_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxDocument_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackageResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackageResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipmentResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchResponseItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchItemBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackageRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipmentRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchRequestItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfBatchResponseItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfBatchRequestItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BatchRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfCompoundError_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CompoundErrorBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxReturn_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Group_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseGroupResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackOrderLineError_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackOrderLineError_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackDetailBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Container_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Pack_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPack_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackDetail_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackRate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRateDetail_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ModifyPackageResult_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfModifyPackageResult_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ModifyPackageListResult_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Grouping_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackResponseBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackRateDetail_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRateResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackDetail_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/TransmitItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfTransmitItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipFile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutResult_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LicenseValidationResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReProcessResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfContainer_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShippingWarehouse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/WarehouseBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Warehouse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfShippingWarehouse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRateRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRequestBase_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfWarehouse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRateType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackRateResponseType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PackResponseType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetSettings_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ApplicationSettings_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxScale_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Printer_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrinterMapping_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPrinterMapping_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/MachineProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxProperty_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxProperty_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxCurrency_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxCountry_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxCountry_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BoxType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfBoxType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BusinessRules_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Type_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/MemberInfo_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxControlProperty_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxControlProperty_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DocProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UserProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ClientSettings_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetSettingsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LogUserTransaction_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LogUserTransactionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAddressBook_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfAddressRecord_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAddressBookResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateAddressRecord_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateAddressRecordResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertAddressRecordbyUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertAddressRecordbyUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertAddressRecord_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertAddressRecordResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteAddressRecord_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteAddressRecordResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteAddressRecordbyUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteAddressRecordbyUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchAddressBook_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchAddressBookResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAddressRecord_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAddressRecordResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAddressCategories_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAddressCategoriesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddAddressCategory_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddAddressCategoryResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteAddressCategory_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteAddressCategoryResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCommodityContents_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCommodityContentsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateCommondityContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateCommondityContentResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertCommondityContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertCommondityContentResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertCommondityContentbyUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertCommondityContentbyUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteCommodityContent_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteCommodityContentResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteCommodityContentbyUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteCommodityContentbyUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUserProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUserProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateUserProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateUserProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteUserProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteUserProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUserProfiles_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUserProfilesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddUserProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddUserProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddMachineProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddMachineProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachineProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachineProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateMachineProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateMachineProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteMachineProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteMachineProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachineProfiles_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachineProfilesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddMachine_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddMachineResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachine_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachineResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateMachine_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateMachineResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteMachine_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteMachineResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachines_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetMachinesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUsers_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUsersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddUser_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddUserResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCarriersByUserAndShipper_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCarriersByUserAndShipperResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetApplicationSettings_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetApplicationSettingsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateApplicationSettings_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateApplicationSettingsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddShipper_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddShipperResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ChangeShipperSymbol_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ChangeShipperSymbolResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteShipper_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteShipperResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCarriers_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCarriersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCommitments_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCommitmentsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCommodityClasses_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCommodityClassesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCurrencyByCountryLocale_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCurrencyByCountryLocaleResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCurrencyByCountry_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCurrencyByCountryResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDeviceDrivers_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDeviceDriversResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetHolidays_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Holiday_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfHoliday_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetHolidaysResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetIncoterms_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetIncotermsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetLanguages_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetLanguagesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetNameAddressValidationCandidates_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfNameAddressValidationCandidate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetNameAddressValidationCandidatesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetNameAddressValidationCandidatesWithParams_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetNameAddressValidationCandidatesWithParamsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetNextValidShipDate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetNextValidShipDateResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetPackageTypes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetPackageTypesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetPaymentTypes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetPaymentTypesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetServices_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetServicesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetShipFileDocuments_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetShipFileDocumentsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDocumentFormats_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxDoc_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxDoc_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDocumentFormatsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetShipperNameAddress_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetShipperNameAddressResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetShippers_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetShippersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUnitOfMeasures_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetUnitOfMeasuresResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetWeightUnitByCountryLocale_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetWeightUnitByCountryLocaleResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InspectNameAddress_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InspectNameAddressResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/IsValidShipDate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/IsValidShipDateResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCarriersbyShippers_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCarriersbyShippersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetServicesbyCarriers_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetServicesbyCarriersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LicenseValidationRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfLicenseValidationRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ValidateEntitlements_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfLicenseValidationResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ValidateEntitlementsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertSoxDbPackage_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InsertSoxDbPackageResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateSoxDbPackage_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateSoxDbPackageResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetScales_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetScalesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InstantiateWCF_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/InstantiateWCFResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ProcessBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ProcessBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddShipmentToBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddShipmentToBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ProcessBatchByRequest_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ProcessBatchByRequestResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetBatchCount_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetBatchCountResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LoadBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LoadBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/StageBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/StageBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RemoveBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RemoveBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CreateBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CreateBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RemoveBatchItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RemoveBatchItemResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipBatchItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipBatchItemResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LoadBatchItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LoadBatchItemResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetStagedBatches_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetStagedBatchesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetStagedBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetStagedBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetBatchShipmentErrors_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetBatchShipmentErrorsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintBatch_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintBatchResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Sox_Version_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Sox_VersionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Sox_Db_Version_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Sox_Db_VersionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/App_Db_Version_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/App_Db_VersionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CSAdapter_Version_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CSAdapter_VersionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ManagementLayer_Version_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ManagementLayer_VersionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Business_Object_Version_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Business_Object_VersionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Load_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/LoadResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UserMethod_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UserMethodResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Validate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ValidateResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutBySymbols_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfCloseOutResult_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutBySymbolsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCloseOutMode_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCloseOutModeResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SetCloseOutMode_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SetCloseOutModeResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCloseOutItems_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfCloseOutItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCloseOutItemsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutBySymbolsAndPrint_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutBySymbolsAndPrintResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReShip_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReShipResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfInt_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReProcess_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReProcessResponseType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ModifyPackageList_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ModifyPackageListResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetSearchFieldList_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetSearchFieldListResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetSearchFieldswithType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetSearchFieldswithTypeResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByGlobalMsn_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByGlobalMsnResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByGlobalBundleId_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPackage_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByGlobalBundleIdResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperReference_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperReferenceResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperReferenceWithCount_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperReferenceWithCountResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByConsigneeReference_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByConsigneeReferenceResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByConsigneeReferenceWithCount_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByConsigneeReferenceWithCountResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByTrackingNumber_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByTrackingNumberResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByTrackingNumberWithCount_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByTrackingNumberWithCountResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByFilter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByFilterResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByFilters_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByFiltersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperAndShipdate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperAndShipdateResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperAndShipdateWithCount_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperAndShipdateWithCountResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperAndShipdateAndStatus_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipperAndShipdateAndStatusResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchPackageHistory_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchPackageHistoryResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipFileID_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SearchByShipFileIDResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Ship_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipOrder_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ShipOrderResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/Rate_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RateResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RateServices_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfShipmentResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/RateServicesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintRequestType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintRequestResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintPositionDocumentXml_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintPositionDocumentXmlResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintDocument_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/PrintDocumentResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAvailablePrinterStocks_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAvailablePrinterStocksResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAvailablePrinters_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetAvailablePrintersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetConfiguredPrinters_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfPrinter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetConfiguredPrintersResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetPrinter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetPrinterResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddPrinter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddPrinterResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CopyPrinter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CopyPrinterResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdatePrinter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdatePrinterResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeletePrinter_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeletePrinterResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDocumentProfiles_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfDocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDocumentProfilesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDocumentProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddDocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AddDocumentProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateDocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/UpdateDocumentProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CopyDocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CopyDocumentProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteDocumentProfile_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteDocumentProfileResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteHistoryItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteHistoryItemResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteHistoryItems_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteHistoryItemsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetHistoryItemList_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetHistoryItemListResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AreTransmitItemsAvailableForDeletion_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AreTransmitItemsAvailableForDeletionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteTransmitItems_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteTransmitItemsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteTransmitItem_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeleteTransmitItemResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetTransmitItemsAvailableForDeletion_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetTransmitItemsAvailableForDeletionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetTransmitItems_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetTransmitItemsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetTransmitItemsByStatus_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetTransmitItemsByStatusResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/TransmitItemType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/TransmitItemResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/TransmitItems_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/TransmitItemsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDeleteTransmitItemsList_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetDeleteTransmitItemsListResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/VoidPackageByGlobalMsn_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/VoidPackageByGlobalMsnResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/VoidPackageByTrackingNumber_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/VoidPackageByTrackingNumberResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/VoidPackagesByGlobalMsnList_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/VoidPackagesByGlobalMsnListResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AdditionalHandlingTypes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxEnum_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AdditionalHandlingTypesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DryIceRegulationSets_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DryIceRegulationSetsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DryIcePurposes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DryIcePurposesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AlcoholTypes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AlcoholTypesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AlcoholPackaging_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/AlcoholPackagingResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DispositionMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DispositionMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutModes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseOutModesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeliveryMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/DeliveryMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReturnAddressMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReturnAddressMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReturnDeliveryMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ReturnDeliveryMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CODPaymentMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CODPaymentMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CODReturnMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CODReturnMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatCACategories_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatCACategoriesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatLabels_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatLabelsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatPackingGroups_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatPackingGroupsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatRegulations_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatRegulationsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatRegulationSets_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazMatRegulationSetsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SEDMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SEDMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/COMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/COMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CommercialInvoiceMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CommercialInvoiceMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NAFTARVCMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NAFTARVCMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NAFTAPreferenceCriterion_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NAFTAPreferenceCriterionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NAFTAProducer_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/NAFTAProducerResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ExchangeMethods_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ExchangeMethodsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatPhysicalForm_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatPhysicalFormResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatRadioactiveException_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/HazmatRadioactiveExceptionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BrokerageMethod_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/BrokerageMethodResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ChargesOnDocumentation_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ChargesOnDocumentationResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CommodityCondition_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CommodityConditionResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCountries_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCountriesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCurrencies_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxCurrency_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetCurrenciesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseGroup_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseGroupResponseType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseGroupAndPrint_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CloseGroupAndPrintResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroup_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupDocuments_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupDocumentsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupings_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfGrouping_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupingsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroups_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfGroup_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupsResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ModifyGroup_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ModifyGroupResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/OpenGroup_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/OpenGroupResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupingTypes_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/SoxGroupingType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfSoxGroupingType_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/GetGroupingTypesResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CreateGroup_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/CreateGroupResponse_LiteralSerializer.java"/>
+      <url path="types/psi/wcf/runtime/ArrayOfNameAddress_LiteralSerializer.java"/>
+      <url path="runtime/WcfPack_Stub.java"/>
+      <url path="runtime/WcfClient_Stub.java"/>
+      <url path="runtime/WcfShip_Stub.java"/>
+      <url path="runtime/WcfSoxContract_SerializerRegistry.java"/>
+      <url path="runtime/WcfSoxContract_SerializerRegistry12.java"/>
+      <url path="WcfPackClient.java"/>
+      <url path="WcfClientClient.java"/>
+      <url path="WcfShipClient.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="ATTACHMENT_MIME"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="com.aasc.erp.carrier.shipexec.proxy"/>
+            <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="com.aasc.erp.carrier.shipexec.proxy.types"/>
+         </hash>
+      </hash>
+      <value n="PROXY_MAPPING_URL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="wcfClient">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="CLASS_NAME" v="com.aasc.erp.carrier.shipexec.proxy.IwcfClient"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="wcfClient"/>
+            <hash n="OPERATIONS">
+               <hash n="addAddressCategory">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addMachine">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addMachineProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addUserProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteAddressCategory">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteAddressRecord">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteAddressRecordbyUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteCommodityContent">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteCommodityContentbyUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteMachine">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteMachineProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteUserProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAddressBook">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAddressCategories">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAddressRecord">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getApplicationSettings">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCarriersByUserAndShipper">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCommodityContents">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getMachine">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getMachineProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getMachineProfiles">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getMachines">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSettings">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getUserProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getUserProfiles">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getUsers">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="insertAddressRecord">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="insertAddressRecordbyUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="insertCommondityContent">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="insertCommondityContentbyUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="logUserTransaction">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchAddressBook">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateAddressRecord">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateApplicationSettings">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateCommondityContent">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateMachine">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateMachineProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateUserProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="shipexec.com" path="/demo/wcf/soap/wcfClient"/>
+         </hash>
+         <hash n="wcfPack">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="CLASS_NAME" v="com.aasc.erp.carrier.shipexec.proxy.IwcfPack"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="wcfPack"/>
+            <hash n="OPERATIONS">
+               <hash n="pack">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="packRate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="shipexec.com" path="/demo/wcf/soap/wcfPack"/>
+         </hash>
+         <hash n="wcfShip">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="CLASS_NAME" v="com.aasc.erp.carrier.shipexec.proxy.IwcfShip"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="wcfShip"/>
+            <hash n="OPERATIONS">
+               <hash n="addDocumentProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="additionalHandlingTypes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addPrinter">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addShipmentToBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="addShipper">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="alcoholPackaging">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="alcoholTypes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="app_Db_Version">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="areTransmitItemsAvailableForDeletion">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="brokerageMethod">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="business_Object_Version">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="changeShipperSymbol">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="chargesOnDocumentation">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="closeGroup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="closeGroupAndPrint">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="closeOutBySymbols">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="closeOutBySymbolsAndPrint">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="closeOutModes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CODPaymentMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CODReturnMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="COMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="commercialInvoiceMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="commodityCondition">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="copyDocumentProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="copyPrinter">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="createGroup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="CSAdapter_Version">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteDocumentProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteHistoryItem">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteHistoryItems">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deletePrinter">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteShipper">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteTransmitItem">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deleteTransmitItems">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="deliveryMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="dispositionMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="dryIcePurposes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="dryIceRegulationSets">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="exchangeMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAvailablePrinters">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getAvailablePrinterStocks">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getBatchCount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getBatchShipmentErrors">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCarriers">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCarriersbyShippers">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCloseOutItems">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCloseOutMode">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCommitments">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCommodityClasses">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getConfiguredPrinters">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCountries">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCurrencies">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCurrencyByCountry">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getCurrencyByCountryLocale">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getDeleteTransmitItemsList">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getDeviceDrivers">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getDocumentFormats">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getDocumentProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getDocumentProfiles">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getGroup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getGroupDocuments">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getGroupings">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getGroupingTypes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getGroups">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getHistoryItemList">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getHolidays">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getIncoterms">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getLanguages">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getNameAddressValidationCandidates">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getNameAddressValidationCandidatesWithParams">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getNextValidShipDate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPackageTypes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPaymentTypes">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getPrinter">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getScales">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSearchFieldList">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSearchFieldswithType">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getServices">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getServicesbyCarriers">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getShipFileDocuments">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getShipperNameAddress">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getShippers">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getStagedBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getStagedBatches">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTransmitItems">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTransmitItemsAvailableForDeletion">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getTransmitItemsByStatus">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getUnitOfMeasures">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getWeightUnitByCountryLocale">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazMatCACategories">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazmatLabels">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazmatPackingGroups">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazmatPhysicalForm">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazmatRadioactiveException">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazMatRegulations">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="hazMatRegulationSets">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="insertSoxDbPackage">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="inspectNameAddress">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="instantiateWCF">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="isValidShipDate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="load">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="loadBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="loadBatchItem">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="managementLayer_Version">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="modifyGroup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="modifyPackageList">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="NAFTAPreferenceCriterion">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="NAFTAProducer">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="NAFTARVCMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="openGroup">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="printBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="printDocument">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="printPositionDocumentXml">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="printRequest">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="processBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="processBatchByRequest">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="rate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="rateServices">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="removeBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="removeBatchItem">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="reProcess">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="reShip">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="returnAddressMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="returnDeliveryMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByConsigneeReference">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByConsigneeReferenceWithCount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByFilter">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByFilters">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByGlobalBundleId">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByGlobalMsn">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByShipFileID">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByShipperAndShipdate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByShipperAndShipdateAndStatus">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByShipperAndShipdateWithCount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByShipperReference">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByShipperReferenceWithCount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByTrackingNumber">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchByTrackingNumberWithCount">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="searchPackageHistory">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="SEDMethods">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="setCloseOutMode">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="ship">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="shipBatchItem">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="shipOrder">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="sox_Db_Version">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="sox_Version">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="stageBatch">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="transmitItem">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="transmitItems">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateDocumentProfile">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updatePrinter">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="updateSoxDbPackage">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="userMethod">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="validate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="validateEntitlements">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="voidPackageByGlobalMsn">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="voidPackageByTrackingNumber">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="voidPackagesByGlobalMsnList">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="shipexec.com" path="/demo/wcf/soap/wcfShip"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="wcfSoxContract"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://tempuri.org/"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../../../Ship.jpr"/>
+      <url n="PROXY_WSDL_URL" protocol="http" host="shipexec.com" path="/demo/wcf/soap" query="wsdl"/>
+   </hash>
+</jdevws:WebServiceProxy>

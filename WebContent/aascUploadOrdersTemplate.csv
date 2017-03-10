@@ -1,0 +1,7 @@
+Order Number*,Customer Name*,ShipTo LocationName*,Contact Name,AddressLine1*,AddressLine2,AddressLine3,City*,State*,Postal Code*,Country Code*,PhoneNumber,Email,ShipFrom LocationName*,Company Name*,Ship Method,Pay Method,Carrier A/C Number,Refernce #1,Refernce #2
+ImportOrder1,A C Networks,NY Metro,James K,50 Penn plaza,23rd floor,,NEW YORK,NY,10001,US,123-123-1234,Shiptoemail@address.com,Boston Manufacturing,Apps,FedEx Express-Priority Overnight,PREPAID,12345678,123,456
+ImportOrder2,A C Networks,NY Metro,James K,50 Penn plaza,23rd floor,,NEW YORK,NY,10001,US,123-123-1234,Shiptoemail@address.com,Boston Manufacturing,Apps,FedEx Express-Priority Overnight,PREPAID,12345678,124,457
+ImportOrder3,A C Networks,NY Metro,James K,50 Penn plaza,23rd floor,,NEW YORK,NY,10001,US,123-123-1234,Shiptoemail@address.com,Boston Manufacturing,Apps,FedEx Express-Priority Overnight,PREPAID,12345678,125,458
+ImportOrder4,A C Networks,NY Metro,James K,50 Penn plaza,23rd floor,,NEW YORK,NY,10001,US,123-123-1234,Shiptoemail@address.com,Boston Manufacturing,Apps,UPS Next Day Air,PREPAID,1234x1,126,459
+ImportOrder5,A C Networks,NY Metro,James K,50 Penn plaza,23rd floor,,NEW YORK,NY,10001,US,123-123-1234,Shiptoemail@address.com,Boston Manufacturing,Apps,UPS Next Day Air,PREPAID,1234x1,127,460
+ImportOrder6,A C Networks,NY Metro,James K,50 Penn plaza,23rd floor,,NEW YORK,NY,10001,US,123-123-1234,Shiptoemail@address.com,Boston Manufacturing,Apps,UPS Next Day Air,PREPAID,1234x1,128,461

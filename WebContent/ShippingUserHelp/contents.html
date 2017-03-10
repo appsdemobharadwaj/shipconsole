@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link type="text/css" href="jqueryui.css" rel="stylesheet" />	
+		<link rel="stylesheet" href="jquery.treeview.css" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jqueryui.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="search.js"></script>
+
+		<script type="text/javascript">
+			$(function() {
+				$("#tabs").tabs();
+			});
+		</script>
+
+		<script src="jquery.treeview.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+		
+				$("#contents").treeview({
+					persist: "location",
+					collapsed: true,
+					unique: true
+				});
+
+				$("#index").treeview({
+					persist: "location",
+					collapsed: true,
+					unique: true
+				});
+
+		        });
+
+		function SelectTocItem(sLinkHref)
+		{
+			$(".file a").each(function()
+			{
+				if ($.inArray(sLinkHref + '.htm', this.href) > -1) $(this).css('font-weight', 'bold')
+				else $(this).css('font-weight', '');
+			});
+		}
+
+		</script>
+		<style type="text/css">
+			/*demo page css*/
+			body{ font-size: 70%;}
+		</style>	
+
+</head>
+<body>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Contents</a></li>
+		<li><a href="#tabs-2">Index</a></li>
+		<li><a href="#tabs-3">Search</a></li>
+	</ul>
+	<div id="tabs-1">
+<ul id="contents" class="filetree">
+<li><span class="file"><a href="overview.html" target="RightFrame">Overview</a></span>
+</li>
+<li><span class="file"><a href="loginscreen.html" target="RightFrame">Login Screen</a></span>
+</li>
+<li><span class="file"><a href="shipconsoleheader0.html" target="RightFrame">ShipConsole Header</a></span>
+</li>
+<li><span class="file"><a href="changepassword0.html" target="RightFrame">Change Password</a></span>
+</li>
+<li><span class="file"><a href="shipconsolemainscreen.html" target="RightFrame">Shipconsole Main Screen</a></span>
+</li>
+<li><span class="file"><a href="profileoptions.html" target="RightFrame">Options</a></span>
+</li>
+<li><span class="file"><a href="carrierconfiguration.html" target="RightFrame">Carriers</a></span>
+</li>
+<li><span class="file"><a href="tracking.html" target="RightFrame">Tracking Page</a></span>
+</li>
+<li><span class="file"><a href="fedexinternationalshipments.html" target="RightFrame">Fedex International Shipments</a></span>
+</li>
+<li><span class="file"><a href="upsinternationalshipments0.html" target="RightFrame">UPS International Shipments</a></span>
+</li>
+<li><span class="file"><a href="stampsinternationalshipments0.html" target="RightFrame">Stamps International Shipments</a></span>
+</li>
+<li><span class="file"><a href="dhlinternationalshipments.html" target="RightFrame">DHL International Shipments</a></span>
+</li>
+<li><span class="file"><a href="importorders.html" target="RightFrame">Import Orders</a></span>
+</li>
+<li><span class="file"><a href="packagedimensions.html" target="RightFrame">Package Dimensions</a></span>
+</li>
+<li><span class="file"><a href="shipconsoletimeout0.html" target="RightFrame">ShipConsole Timeout</a></span>
+</li>
+<li><span class="file"><a href="upsshipexecsetup.html" target="RightFrame">UPS ShipExec Shipping</a></span>
+</li>
+<li><span class="file"><a href="printerandweighingscalesetups.html" target="RightFrame">Printer and Weighing Scale Setups</a></span>
+</li>
+
+</li>
+</ul>
+
+	</div>
+	<div id="tabs-2">
+<ul id="index">
+</ul>
+
+	</div>
+	<div id="tabs-3">
+		<form onsubmit="requery();return false">
+			<input id="squery" type="text" name="q" autocomplete="off"/>
+			<input type="button" value=">" onclick="requery()">
+		</form>
+
+		<p>
+		<div id="results">
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>

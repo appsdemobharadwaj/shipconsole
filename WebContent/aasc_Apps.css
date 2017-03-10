@@ -1,0 +1,79 @@
+/* style for tab (button) that is selected */ 
+.selected {background-color:lightblue; color:black;}
+/* style for tab (button) that is unselected */
+.unseleceted {background-color:white; color:black;}
+.upsShipButton {background-color:palegreen; color:black;}
+.printLabelButton {background-color:yellow; color:black;}
+.oracleShipConfirmButton {background-color:lightblue; color:black;}
+.sectionHeader1 {
+    FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #336699; 
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.displayResults {
+     FONT-SIZE: 10pt; COLOR: #000099; 
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.OraBGAccentDark {
+    BACKGROUND-COLOR: #cccc99
+}
+.tableSmallHeaderCell {
+    FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #336699;
+    FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR:#cccc99
+}
+
+.tableDataCell {
+    FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif;
+    BACKGROUND-COLOR: #f7f7e7
+}
+.tableDataTrackCell {
+    FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif;
+    BACKGROUND-COLOR: #CCCCCC
+}
+.tableDataTrackCellChange {
+    FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif;
+    BACKGROUND-COLOR: white
+}
+.tablePromptCell {
+    FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif;
+    BACKGROUND-COLOR: #f7f7e7
+}
+.buttonDataCell {
+    FONT-SIZE: 9pt; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif;
+    BACKGROUND-COLOR: #f7f7e7
+    BORDER: 0px
+}
+.requiredFieldPrompt {
+    FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.dataReadOnly {
+    FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.messageCell {
+    FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR:red
+}
+.prompt {
+    FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+/*added on 06/03/2006 by vandana*/
+.sectionHeader1 {
+    FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #336699; 
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px; }
+.style5 {
+	color: #990033;
+	font-weight: bold;
+}

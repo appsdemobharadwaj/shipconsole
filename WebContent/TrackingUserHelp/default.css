@@ -1,0 +1,55 @@
+body {
+	font-family: Tahoma;
+	margin: 0;
+}
+
+#header {
+	background-color: #6FA7D1;
+	color: white;
+	padding: 5px;
+	position: relative;
+	height: 40px;
+}
+
+
+#header h1 {
+	margin: 0;
+	font-size: 14pt;
+	float: left;
+}
+
+#nav {
+	position: absolute;
+	right: 10px;
+}
+
+#nav a {
+        text-decoration: none;
+}
+
+#nav a img {
+        border: none;
+}
+
+#content {
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#footer {
+	background-color: #6FA7D1;
+	color: white;
+	padding: 5px;
+}
+
+.glos_letter {
+	font-size: 12pt;
+        font-weight: bold;        
+        margin-top: 10px;
+}
+
+.glos_term {
+        font-weight: bold;
+        margin-top: 10px;                   
+}
+.highlight { background-color: yellow }

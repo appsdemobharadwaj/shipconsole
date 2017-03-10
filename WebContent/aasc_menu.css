@@ -1,0 +1,125 @@
+ a {
+	display: inline-block;
+}
+div {
+	font-size: 12px;
+}
+li {
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+a {
+	color: rgb(0, 153, 204);
+}
+a:hover {
+	color: rgb(14, 130, 169);
+}
+.clr {
+	clear: both;
+}
+.midSec {
+	width: 560px;
+}
+
+.menu li:hover .shipping {
+	background-position: 0px -174px;
+}
+.menu li:hover .tracking {
+	background-position: 0px -69px;
+}
+.menu li:hover .reports {
+	background-position: 0px -132px;
+}
+.mActive .batchform {
+	background-position: 0px -254px;
+}
+.menu li:hover .batchform {
+	background-position: 0px -254px;
+}
+.mActive .profileoptions {
+	background-position: 0px -216px;
+}
+.menu li:hover .profileoptions {
+	background-position: 0px -216px;
+}
+.mActive .carrierconfig {
+	background-position: 2px -27px;
+}
+.menu li:hover .carrierconfig {
+	background-position: 2px -27px;
+}
+.mActive .packagedim {
+	background-position: 0px -345px;
+}
+.menu li:hover .packagedim {
+	background-position: 0px -345px;
+}
+.wrap {
+	margin: 0px auto; width: 990px;
+}
+ .menu a {
+	padding: 26px 0px 19px; text-align: center; color: rgb(102, 102, 102); display: block;
+}
+ .midSec.menu > li:first-child {
+	margin-left: 20px;
+}
+ .menu .mActive {
+	background-color: rgb(245, 245, 245);
+}
+ .menu li:hover {
+	background-color: rgb(245, 245, 245);
+}
+ .menu .mActive div {
+	color: rgb(0, 153, 204); font-weight: 400;
+}
+ .menu li:hover div {
+	color: rgb(0, 153, 204); font-weight: 400;
+}
+ .menu li:hover a:hover {
+	color: rgb(0, 153, 204);
+}
+ .menu li:hover  {
+	padding: 18px 0px; height: auto; line-height: 1; overflow: visible; filter: alpha(opacity=100); z-index: 9999; opacity: 1; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out;
+}
+ .midSec li {
+	width: 85px; float: left;
+}
+ .midSec {
+	float: left; position: relative; z-index: 50;
+}
+ .mTxt {
+	color: rgb(255,255,255); line-height: 24px;
+}
+ .topIcon {
+	width: 80px; height: 80px; display: inline-block;
+}
+ .shipping {
+	background-image:url("images/index1.png");
+}
+ .tracking {
+	background-image:url("images/index2.png");
+}
+.reports {
+	background-image:url("images/index8.png");
+}
+ .batchform {
+	background-position: 0px -236px;
+}
+ .profileoptions {
+	background-position: 0px -195px;
+}
+ .carrierconfig {
+	background-position: 2px -48px;
+}
+ 
+ .packagedim {
+	background-position: 0px -326px;
+}
+ .packagedim {
+	margin: 3px 0px 2px;
+}

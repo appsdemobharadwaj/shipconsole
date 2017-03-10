@@ -1,0 +1,3 @@
+Customer_Name*,Location_Name*,Contact_Name*,Address_Line1*,Address_Line2,Address_Line3,City*,State*,Postal_Code*,Country*,Phone_Number*,Email_Address*
+PBP Inc,SAN DIEGO,San Man,7577 AIRWAY RD,,,SAN DIEGO,CA,92154,US,123-123-1234,appsassoc@testmail.com
+PBP Inc,ATLANTA,Atlas Loc,664 CHERRINGTON PARKWAY,664 CHERRINGTON PARKWAY,,ATLANTA,GA,30328,US,123-123-1235,appsassocq@testmail.com

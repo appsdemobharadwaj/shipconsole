@@ -1,0 +1,401 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+/*	background-color: #E6E6E6;*/
+}
+body,td,th {
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+
+.headings{
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px; 
+	FONT-FAMILY: Tahoma;
+	color:#FFFFFF;
+        /*#19A5E0   old-backgroundfinalised:4476cc  blue one*/
+	/*background-color:#223388 ; /* #3e5d95*/
+        /*gradient color for headings*/
+        /*width: 1340px;
+	height: 650px;*/
+	background: #999; /* for non-css3 browsers */
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #4476cc, endColorstr = #223388 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4476cc', endColorstr='#223388',GradientType=0 ); 
+	/* for webkit browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#4476cc),to(#223388) );
+	/* for firefox 3.6+ */
+	background: -moz-linear-gradient(top, #4476cc, #223388);
+        
+        /*B7E0FD,93D1FD,96CAFD,66AADD,C8E3FD*/
+}
+.subHeadings{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px; 
+	FONT-FAMILY: Tahoma;
+	color:#000000;
+}
+.smallHeadings{
+    FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+    COLOR: #FFFFFF;
+    /*#19A5E0   old-backgroundfinalised:4476cc  blue one*/
+	/*background-color: #3e5d95;*/
+        
+        /*background-color:#223388 ; /* #3e5d95*/
+        /*gradient color for headings*/
+        /*width: 1340px;
+	height: 650px;*/
+	background: #000; /* for non-css3 browsers */
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #4476cc, endColorstr = #223388 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4476cc', endColorstr='#223388',GradientType=0 ); 
+	/* for webkit browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#4476cc),to(#223388) );
+	/* for firefox 3.6+ */
+	background: -moz-linear-gradient(top, #4476cc, #223388);
+        
+        /*B7E0FD,93D1FD,96CAFD,66AADD,C8E3FD*/
+}
+.displayMessage{
+	FONT-WEIGHT: bold; 
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px; 
+	COLOR:#ed0707; /*#4AA02C;*/
+}
+.displayMessage1{
+	FONT-WEIGHT: bold; 
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 12px; 
+	COLOR:#0000b3;
+}
+.dispalyFields{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Tahoma;
+        width: 50%;
+}
+.dispalyFieldsWithOutBold{
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Tahoma;
+        width: 50%;
+}
+
+.dispalyFieldsWithOutWidth{
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Tahoma;
+}
+.dispalyFieldsUPSAddrDetails{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Tahoma;
+        
+}
+.shipToTableHeader{
+    background-color:   #19b698;
+    color:  white;
+    FONT-WEIGHT: bold; 
+    FONT-SIZE: 13px; 
+    FONT-FAMILY: Tahoma;
+}
+.dispalyDBFields{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #F7FF80;
+}
+.dispalyDBFieldsNew{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #3961B7;
+}
+.inputFields{
+        border: 2px double #CCCCCC;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #3e5d95;
+}
+
+.inputFieldspayMethod{
+       	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	width:90%;
+}
+.heref{
+  FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+  color: #003399;
+}
+.pageHeading
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	color:#294A5C; 
+}
+
+.rounded {
+		border: 3px double #CCCCCC;
+		/*background: url(images\roundd.gif) top left no-repeat ; */
+	
+        FONT-WEIGHT: bold; 
+               
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #3e5d95;
+	}
+        
+.gradient {
+	/*width: 1340px;
+	height: 650px;*/
+	background: #999; /* for non-css3 browsers */
+	/* For Internet Explorer 5.5 - 7 */
+	/*filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #FFFFFF, endColorstr = #98AFC7 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+     /*   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#98AFC7',GradientType=0 ); 
+	/* for webkit browsers */
+	/* background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF),to(#98AFC7) );
+	/* for firefox 3.6+ */
+	/*background: -moz-linear-gradient(top, #FFFFFF, #98AFC7);
+        background-image: -ms-linear-gradient(top, #FFFFFF 0%, #98AFC7 100%);
+        /*B7E0FD,93D1FD,96CAFD,66AADD,C8E3FD*/
+        /* W3C Markup, IE10 Release Preview */ 
+        
+        
+        
+}
+
+
+select{
+    
+    background:#ffffff; /*#C2C9E8;*/
+    
+}
+
+input[type='text'][disabled]
+{ 
+background-color: #dcdcdc; 
+ 
+}
+/*select[disabled], select[readonly], checkbox[disabled], checkbox[readonly],, input[readonly]  
+border: 2px double #CCCCCC;
+color: #000000; 
+cursor: default;
+*/
+
+/* added for  package details table, dimensions pop up button styling*/
+.inputFields1{ 
+        
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma;
+	color: #3e5d95;
+}
+
+
+/* added for package n line table title styling*/
+
+.tablegradient {
+	/*width: 1340px;
+	height: 650px;*/
+	background: #999; /* for non-css3 browsers */
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid : DXImageTransform.Microsoft.gradient(startColorstr = #d2dbf5, endColorstr = #98AFC7 );
+	/* For Internet Explorer 8 */
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#F75D59);"*/
+        /* IE6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2dbf5', endColorstr='#98AFC7',GradientType=0 ); 
+	/* for webkit browsers */
+	background: -webkit-gradient(linear, left top, left bottom, from(#d2dbf5),to(#98AFC7) );
+	/* for firefox 3.6+ */
+	background: -moz-linear-gradient(top, #d2dbf5, #98AFC7);
+        
+        /*B7E0FD,93D1FD,96CAFD,66AADD,C8E3FD*/
+        background-image: -ms-linear-gradient(top, #FFFFFF 0%, #98AFC7 100%);
+}
+
+.dropdown 
+{
+color: inherit;
+margin: 12px 22px 0 0;
+width: 100px;
+position: relative;
+height: 17px;
+text-align:left;
+}
+.submenu
+{
+background-color: #F1F4F7;
+position: absolute;
+top: -12px;
+left: -20px;
+z-index: 100;
+/*width: 135px;
+height: auto; */
+display: none;
+margin-left: 10px;
+padding: 40px 0 5px;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a 
+{
+color: #555555;
+display: block;
+font-size: 12px;
+font-family: arial;
+font-weight: normal;
+padding: 6px 10px;
+cursor: pointer;
+text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+font-size: 14px;
+font-family: arial;
+font-weight: 400;
+background:#155FB0;
+color: #555555;
+cursor: pointer;
+text-decoration: none;
+}
+.dropdown li a:active 
+{
+font-size: 14px;
+font-family: arial;
+font-weight: 400;
+color: #000000;
+text-decoration: none;
+}
+.dropdown li a:visited 
+{
+font-size: 12px;
+font-family: arial;
+font-weight: 400;
+color: #555555;
+text-decoration: none;
+}
+a.account 
+{
+font-size: 10px;
+line-height: 10px;
+color: #555;
+position: absolute;
+z-index: 110;
+display: block;
+padding: 0px 0 0 0px;
+height: 26px;
+width: 26px;
+margin: 2px 0 0 -2px;
+text-decoration: none;
+cursor:pointer;
+
+}
+
+.root
+{
+list-style:none;
+margin:0px;
+padding:0px;
+font-size: 10px;
+padding: 11px 0 0 0px;
+border-top:1px solid #dedede;
+}
+
+textarea{
+    resize:none;
+    width: 141px;
+    height: 31px;
+    
+    
+}
+.international
+{
+        font-family: Tahoma;
+	font-size: 12px;
+        font-weight: bold;
+        
+}
+
+/*code to put footer always at the bottom*/
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -20px; /* the bottom margin is the negative value of the footer's height */
+        margin:0;
+        padding:10px 0 0 10px;         
+
+}
+.footer, .push {
+		/*height: 20px; /* .push must be the same height as .footer */
+       /* background-image: url("images/plain_blue.jpg");background-repeat:repeat-x;
+        /* border: 1px solid black;*/
+                position:absolute;
+		bottom:0;
+		width:100%;
+		height:20px;			/* Height of the footer */
+		/*background-image: url("images/plain_blue.jpg");background-repeat:repeat-x;*/
+}
+.footerPlain {
+		/*height: 20px; /* .push must be the same height as .footer */
+       /* background-image: url("images/plain_blue.jpg");background-repeat:repeat-x;
+        /* border: 1px solid black;*/
+                position:absolute;
+		bottom:0;
+		width:100%;
+		height:20px;			/* Height of the footer */
+		
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:20px;   /* Height of the footer */
+    
+}
+
+
+ 
+
+.back
+{
+width:95%;
+border:2px solid #a1a1a1;
+padding:5px 5px; 
+
+border-radius:25px;
+-moz-border-radius:25px;
+-webkit-border-radius:25px;
+
+box-shadow: 10px 10px 5px #888888;
+-moz-box-shadow: 10px 10px 5px #888888;
+-webkit-box-shadow: 10px 10px 5px #888888;
+   /* box-shadow: 3px 3px 4px #ccc;  For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 10, Direction = 135, Color = '#888888');
+    
+
+background:#FAFAFA;  /*dddddd*/ /* for non-css3 browsers */
+	
+        
+
+}

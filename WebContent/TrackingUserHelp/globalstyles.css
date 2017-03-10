@@ -1,0 +1,149 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts101 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts102 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+}
+span.rvts103 /* Font Style */
+{
+ font-size: 16pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts104 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #333333;
+}
+span.rvts105 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #333333;
+}
+span.rvts106 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+}
+span.rvts107 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts108 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #282828;
+}
+a.rvts109, span.rvts109 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts109:hover { color: #0000ff; }
+span.rvts110 /* Font Style */
+{
+ font-size: 12pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #0000ff;
+}
+span.rvts111 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-weight: bold;
+ color: #000000;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* left align */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps101 /* Paragraph Style */
+{
+}
+.rvps102 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps103 /* Paragraph Style */
+{
+ margin: 8px 0px 8px 0px;
+}
+.rvps104 /* left align */
+{
+ text-align: center;
+}
+.rvps105 /* Paragraph Style */
+{
+ text-align: justify;
+}
+.rvps106 /* Paragraph Style */
+{
+ margin: 0px 0px 10px 0px;
+}
+.rvps107 /* Paragraph Style */
+{
+ text-indent: -24px;
+ margin: 8px 0px 8px 48px;
+}
+.rvps108 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 192px;
+}
+.rvps109 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 288px;
+}
+.rvps110 /* left align */
+{
+ margin: 0px 0px 0px 384px;
+}
+.rvps111 /* Paragraph Style */
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 0px 0px 0px 384px;
+}
+.rvps112 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 384px;
+}
+.rvps113 /* left align */
+{
+ text-indent: 48px;
+ margin: 0px 0px 0px 432px;
+}
