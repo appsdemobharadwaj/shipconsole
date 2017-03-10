@@ -358,7 +358,7 @@
        
         
         <div class="row" align=center>
-    <footer><p><font size="1" color="blue">Mar 10 2017 - Senthil Demo - Copyright 2017 &copy; Apps Associates. All rights reserved DEMO</font></p></footer>    
+    <footer><p><font size="1" color="blue">Mar 10 2017 -> Senthil Demo - Copyright 2017 &copy; Apps Associates. All rights reserved DEMO</font></p></footer>    
 </div>
        
       </div>
