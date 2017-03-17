@@ -358,7 +358,7 @@
        
         
         <div class="row" align=center>
-    <footer><p><font size="1" color="blue">DevOps ShipConsole Cloud - Copyright 2017 &copy; Apps Associates. All rights reserved</font></p></footer>    
+    <footer><p><font size="1" color="blue">ICD DevOPS Demo - Copyright 2017 &copy; Apps Associates. All rights reserved</font></p></footer>    
 </div>
        
       </div>
