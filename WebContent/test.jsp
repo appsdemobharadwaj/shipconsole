@@ -1,1 +1,1 @@
-Welcome to ShipConsole Project
+Welcome to devops training day 3
