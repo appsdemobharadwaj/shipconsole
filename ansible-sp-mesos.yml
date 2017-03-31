@@ -1,0 +1,14 @@
+--- 
+- 
+  hosts: localhost
+  tasks: 
+    - 
+      command: "dcos marathon app add haproxy.json"
+      name: "Adding haproxy"
+      register: docker
+    - 
+      command: "dcos marathon app add shipconsole.json"
+      name: "Adding shipconsole proxy"
+      register: docker
+    - 
+      debug: var=docker.stdout
