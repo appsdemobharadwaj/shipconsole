@@ -1,0 +1,48 @@
+{
+	"id": "shipconsole-docker",
+	"cmd": null,
+	"mem": 512,
+	"cpus": 1.0,
+	"disk": 0,
+	"instances": 1,
+	"acceptedResourceRoles": [
+		"slave_public"
+	],
+	"container": {
+		"type": "DOCKER",
+		"docker": {
+			"image": "bharadwajsnp/mckinsey-sp:latest",
+			"network": "BRIDGE",
+			"portMappings": [{
+				"containerPort": 8080,
+				"hostPort": 0,
+				"protocol": "tcp",
+				"name": "http",
+				"labels": {
+					"VIP_0": "1.2.3.4:5001"
+				}
+			}]
+		},
+		"privileged": false,
+		"parameters": [{
+			"key": "add-host",
+			"value": "shipconsole-docker:1.2.3.4"
+		}],
+		"forcePullImage": true
+	},
+	"healthChecks": [{
+	"gracePeriodSeconds": 120,
+      "intervalSeconds": 30,
+      "maxConsecutiveFailures": 3,
+      "path": "/",
+      "portIndex": 0,
+      "protocol": "HTTP",
+      "timeoutSeconds": 5
+	}],
+	"labels": {
+		"type": "app"
+	},
+	"env": {
+		"JAVA_OPTS": "-Xms256m -Xmx256m"
+  }
+}

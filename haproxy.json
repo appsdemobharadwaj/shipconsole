@@ -1,0 +1,27 @@
+{
+    "id": "haproxy-public",
+    "instances": 1,
+    "mem": 128,
+    "cpus": 0.1,
+    "acceptedResourceRoles": [
+        "slave_public"
+    ],
+    "constraints": [["hostname", "UNIQUE"]],
+    "container": {
+        "docker": {
+            "image": "sargun/haproxy-demo:3",
+            "network": "HOST"
+        },
+        "type": "DOCKER"
+    },
+    "env": {
+        "CONFIGURL": "https://gist.githubusercontent.com/appsdemobharadwaj/07b61f0f601c3c649538f8b94e561983/raw/639c1f55a126ae0344d5adb523cda87c05edc14c/haproxy.conf"
+    },
+    "portDefinitions": [
+		{ "port": 9090, "protocol": "tcp", "name": "stats" },
+        { "port": 8000, "protocol": "tcp", "name": "simpleserver" },
+        { "port": 8080, "protocol": "tcp", "name": "shipconsole-docker" },
+		    { "port": 9999, "protocol": "tcp", "name": "sample" }
+    ],
+    "requirePorts": true
+}
