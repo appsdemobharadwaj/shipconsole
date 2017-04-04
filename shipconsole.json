@@ -1,48 +1,67 @@
 {
-	"id": "shipconsole-docker",
-	"cmd": null,
-	"mem": 512,
-	"cpus": 1.0,
-	"disk": 0,
-	"instances": 1,
-	"acceptedResourceRoles": [
-		"slave_public"
-	],
-	"container": {
-		"type": "DOCKER",
-		"docker": {
-			"image": "bharadwajsnp/mckinsey-sp:latest",
-			"network": "BRIDGE",
-			"portMappings": [{
-				"containerPort": 8080,
-				"hostPort": 0,
-				"protocol": "tcp",
-				"name": "http",
-				"labels": {
-					"VIP_0": "1.2.3.4:5001"
-				}
-			}]
-		},
-		"privileged": false,
-		"parameters": [{
-			"key": "add-host",
-			"value": "shipconsole-docker:1.2.3.4"
-		}],
-		"forcePullImage": true
-	},
-	"healthChecks": [{
-	"gracePeriodSeconds": 120,
-      "intervalSeconds": 30,
-      "maxConsecutiveFailures": 3,
-      "path": "/",
-      "portIndex": 0,
+  "volumes": null,
+  "id": "/shipconsole",
+  "cmd": null,
+  "args": null,
+  "user": null,
+  "env": null,
+  "instances": 1,
+  "cpus": 1,
+  "mem": 1024,
+  "disk": 0,
+  "gpus": 0,
+  "executor": null,
+  "constraints": null,
+  "fetch": null,
+  "storeUrls": null,
+  "backoffSeconds": 1,
+  "backoffFactor": 1.15,
+  "maxLaunchDelaySeconds": 3600,
+  "container": {
+    "docker": {
+      "image": "bharadwajsnp/mckinsey-sp:latest",
+      "forcePullImage": false,
+      "privileged": false,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp",
+          "servicePort": 80
+        }
+      ],
+      "network": "BRIDGE"
+    }
+  },
+  "healthChecks": [
+    {
       "protocol": "HTTP",
-      "timeoutSeconds": 5
-	}],
-	"labels": {
-		"type": "app"
-	},
-	"env": {
-		"JAVA_OPTS": "-Xms256m -Xmx256m"
-  }
+      "path": "/",
+      "gracePeriodSeconds": 300,
+      "intervalSeconds": 60,
+      "timeoutSeconds": 20,
+      "maxConsecutiveFailures": 3,
+      "ignoreHttp1xx": false
+    }
+  ],
+  "readinessChecks": null,
+  "dependencies": null,
+  "upgradeStrategy": {
+    "minimumHealthCapacity": 1,
+    "maximumOverCapacity": 1
+  },
+  "labels": {
+    "HAPROXY_GROUP": "external"
+  },
+  "acceptedResourceRoles": null,
+  "residency": null,
+  "secrets": null,
+  "taskKillGracePeriodSeconds": null,
+  "portDefinitions": [
+    {
+      "port": 80,
+      "protocol": "tcp",
+      "labels": {}
+    }
+  ],
+  "requirePorts": false
 }
