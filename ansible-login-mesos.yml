@@ -1,0 +1,10 @@
+--- 
+- 
+  hosts: localhost
+  tasks: 
+    - 
+      command: "dcos auth login --username=naresh --password=Welcome@123"
+      name: "Deploy Mesos Application"
+      register: docker
+    - 
+      debug: var=docker.stdout
