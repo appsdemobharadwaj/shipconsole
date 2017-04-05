@@ -15,8 +15,4 @@
     - 
       command: "docker push bharadwajsnp/mckinsey-sp:latest"
     - 
-      command: "ansible-playbook ansible-login-mesos.yml"
-	- 
-      command: "ansible-playbook ansible-sp-mesos.yml"
-    - 
       debug: var=docker.stdout
