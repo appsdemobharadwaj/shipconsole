@@ -9,10 +9,10 @@
     - 
       command: "ant dist"
     - 
-      command: "docker build --no-cache --tag bharadwajsnp/mckinsey-sp:latest ."
+      command: "docker build --no-cache --tag bharadwajsnp/ansibledemo:latest ."
     - 
       command: "docker login -u bharadwajsnp -p Webhosting123"
     - 
-      command: "docker push bharadwajsnp/mckinsey-sp:latest"
+      command: "docker push bharadwajsnp/ansibledemo:latest"
     - 
       debug: var=docker.stdout
