@@ -7,7 +7,7 @@
       name: "Deploy Mesos Application"
       register: docker
     - 
-      command: "ant war"
+      command: "ant dist"
     - 
       command: "docker build --no-cache --tag bharadwajsnp/mckinsey-sp:latest ."
     - 
