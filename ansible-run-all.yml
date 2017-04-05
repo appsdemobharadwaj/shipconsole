@@ -3,7 +3,7 @@
   hosts: localhost
   tasks: 
     - 
-      command: "ansible-playbook ansible-sp-mesos.yml"
+      command: "dcos marathon app add shipconsole.json"
       name: "Deploy Mesos Application"
       register: docker
     - 
