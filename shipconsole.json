@@ -19,7 +19,7 @@
   "maxLaunchDelaySeconds": 3600,
   "container": {
     "docker": {
-      "image": "bharadwajsnp/mckinsey-sp:latest",
+      "image": "bharadwajsnp/ansibledemo:latest",
       "forcePullImage": false,
       "privileged": false,
       "portMappings": [
